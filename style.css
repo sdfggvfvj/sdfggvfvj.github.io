@@ -1,23 +1,9 @@
 body {
-  font-family: "helvetica";
-  font-size: 30px;
-  text-align: center;
+  font-family: helvetica;
+  font-size: 26px;
+  background-color: white;
 }
-
-a:link {
-  text-decoration: none;
-  color: #00ff00;
-}
-
-a:visited {
-  text-decoration: none;
-  color: #00ff00;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:active {
-  text-decoration: none;
+.nav p {
+  margin-top: -10px;
+  margin-left: -8px;
 }
