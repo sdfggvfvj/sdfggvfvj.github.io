@@ -15,6 +15,13 @@ var data = {
       },
 
       {
+        "image": "glittering.jpg",
+        "titles": "Seoul Art Book Fair",
+        "description": "an image making collaboration with Sangah Shin, Presented at Seoul Art Book Fair, 2019",
+        "maker": "name"
+      },
+
+      {
         "image": "qiaohetang-1.jpg",
         "titles": "QiaoHeTang",
         "description": "I made two images for Qiaochu Guo's Project - QiaoHeTang, presented at Temporary Art Center Eindhoven, 2019",
