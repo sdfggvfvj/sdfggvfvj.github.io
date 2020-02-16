@@ -23,7 +23,7 @@ var data = {
 
       {
         "image": "qiaohetang-1.jpg",
-        "titles": "QiaoHeTang",
+        "titles": "QiaoHeTang!",
         "description": "I made two pieces of images for Qiaochu Guo's Project -QiaoHeTang,
         Exhibited at Temporary Art Center Eindhoven, 2019",
         "maker": "name"
