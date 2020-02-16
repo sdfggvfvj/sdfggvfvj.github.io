@@ -15,9 +15,16 @@ var data = {
       },
 
       {
-        "image": "artificial.png",
+        "image": "artificial.jpg",
         "titles": "artificial landscape",
         "description": "creating a way of generating pictures",
+        "maker": "name"
+      },
+
+      {
+        "image": "qiaohetang-1.jpg",
+        "titles": "QiaoHeTang, I made two images for Qiaochu Guo's Project",
+        "description": "Exhibited at Temporary Art Center Eindhoven",
         "maker": "name"
       }
     ]
