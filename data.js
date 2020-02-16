@@ -16,7 +16,7 @@ var data = {
 
       {
         "image": "glittering.jpg",
-        "titles": "Seoul Art Book Fair",
+        "titles": "Artificial 'Luxury'",
         "description": "an image making collaboration with Sangah Shin, Presented at Seoul Art Book Fair, 2019",
         "maker": "name"
       },
