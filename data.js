@@ -1,6 +1,13 @@
 var data = {
   "works":[
 
+    {
+      "image": "keying-1.png",
+      "titles": "https://www.youtube.com/watch?v=os1Wx-qOOvw",
+      "description": "a practice about mixing videos",
+      "maker": "name"
+    },
+
       {
         "image": "thefusion-2.jpeg",
         "titles": "www.youtube.com/watch?v=egN_TEU72Ok&t=43s",
@@ -16,14 +23,14 @@ var data = {
 
       {
         "image": "glittering.jpg",
-        "titles": "Artificial 'Luxury'",
+        "titles": "artificial 'Luxury'",
         "description": "an image making collaboration with Sangah Shin, Presented at Seoul Art Book Fair, 2019",
         "maker": "name"
       },
 
       {
         "image": "qiaohetang-1.jpg",
-        "titles": "QiaoHeTang",
+        "titles": "TaoBaoTu made for QiaoHeTang",
         "description": "I made two images for Qiaochu Guo's Project - QiaoHeTang, presented at Temporary Art Center Eindhoven, 2019",
         "maker": "name"
       },
