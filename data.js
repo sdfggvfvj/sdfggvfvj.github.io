@@ -1,24 +1,11 @@
 var data = {
   "works":[
 
-    {
-      "image": "keying-1.png",
-      "titles": "https://www.youtube.com/watch?v=os1Wx-qOOvw",
-      "description": "a practice about mixing videos",
-      "maker": "name"
-    },
 
       {
         "image": "thefusion-2.jpeg",
         "titles": "www.youtube.com/watch?v=egN_TEU72Ok&t=43s",
         "description": "a video about dreams and memories",
-        "maker": "name"
-      },
-
-      {
-        "image": "human.jpg",
-        "titles": "who is she?",
-        "description": "idk",
         "maker": "name"
       },
 
@@ -48,7 +35,22 @@ var data = {
         "titles": "artificial landscape",
         "description": "creating a way of generating pictures",
         "maker": "name"
-      }
+      },
+
+      {
+        "image": "human.jpg",
+        "titles": "who is she?",
+        "description": "idk",
+        "maker": "name"
+      },
+
+
+          {
+            "image": "keying-1.png",
+            "titles": "https://www.youtube.com/watch?v=os1Wx-qOOvw",
+            "description": "a practice about mixing videos",
+            "maker": "name"
+          }
 
     ]
 }
