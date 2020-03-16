@@ -45,13 +45,13 @@ function drawEyes(person){
 
 function drawEars(person){
 
-  image(stone, person.pose.rightElbow.x, person.pose.rightElbow.y, 50,50);
-	image(crane,person.pose.rightEar.x, person.pose.rightEar.y, 416, 927);
-	image(stone, person.pose.rightEar.x, person.pose.rightEar.y, 800, 800);
+  image(stars, person.pose.rightElbow.x, person.pose.rightElbow.y, 400,400);
+	image(stars,person.pose.rightEar.x, person.pose.rightEar.y, 400, 400);
+	image(stars, person.pose.rightEar.x, person.pose.rightEar.y, 800, 800);
 	//fill(0, 0, 80);
   noStroke();
 	//fill(0, 0, 80);
-	image(mountain, person.pose.rightEar.x, person.pose.rightEar.y, 700, 700);
+	image(stars, person.pose.rightEar.x, person.pose.rightEar.y, 700, 700);
 	image(fog, person.pose.leftEar.x, person.pose.leftEar.y, 200, 200);
 
 }
@@ -64,10 +64,10 @@ function drawKeyPoints(person){
 
 	for(var j = 0; j < person.pose.keypoints.length; j++){
 		var keypoint = person.pose.keypoints[j];
-		image(stone,
+		image(stars,
 				keypoint.position.x,
 				keypoint.position.y,
-				416,927
+				400,400
 		);
 	}
 }
