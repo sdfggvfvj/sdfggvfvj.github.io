@@ -12,6 +12,11 @@ function preload(){
 	stone = loadImage('i/stone.png');
 	stars = loadImage('i/stars.gif');
 	leaves = loadImage('i/leaves.gif');
+	clouds = loadImage('i/clouds.png');
+	clouds2 = loadImage('i/clouds-2.png');
+	clouds3 = loadImage('i/clouds-3.png');
+	waterfall = loadImage('i/waterfall.gif');
+
 }
 
 
@@ -37,9 +42,13 @@ function setup(){
 	video.hide();
 }
 
+function drawBackground(person) {
+	image(leaves,displayWidth, displayHeight);
+
+}
 function drawEyes(person){
-  image(crane, person.pose.leftEye.x, person.pose.leftEye.y, 412, 969);
-	image(mountain, person.pose.rightEye.y, person.pose.rightEye.x, 412, 969);
+  image(clouds, person.pose.leftEye.x, person.pose.leftEye.y, 1988, 1290);
+	image(mountain, person.pose.rightEye.y, person.pose.rightEye.x, 1050, 610);
 
 
 }
@@ -48,7 +57,7 @@ function drawEars(person){
 
   image(crane, person.pose.rightElbow.x, person.pose.rightElbow.y, 412, 969);
 	image(crane,person.pose.rightEar.x, person.pose.rightEar.y, 412, 969);
-	image(crane, person.pose.rightEar.x, person.pose.rightEar.y, 412, 969);
+	image(waterfall, person.pose.rightEar.x, person.pose.rightEar.y, displayWidth, displayHeight);
 	//fill(0, 0, 80);
   noStroke();
 	//fill(0, 0, 80);
@@ -65,7 +74,7 @@ function drawKeyPoints(person){
 
 	for(var j = 0; j < person.pose.keypoints.length; j++){
 		var keypoint = person.pose.keypoints[j];
-		image(lives,
+		image(clouds2,
 				keypoint.position.x,
 				keypoint.position.y,
 				displayWidth,displayHeight
@@ -94,6 +103,7 @@ function draw(){
 
 	for(let i=0; i < poses.length; i++){
 		var person = poses[i];
+		drawBackground(person);
 		drawEyes(person);
 		drawEars(person);
 		drawKeyPoints(person);
