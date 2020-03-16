@@ -52,7 +52,7 @@ function drawEars(person){
   noStroke();
 	//fill(0, 0, 80);
 	image(stars, person.pose.rightEar.x, person.pose.rightEar.y, 700, 700);
-	image(fog, person.pose.leftEar.x, person.pose.leftEar.y, 200, 200);
+	image(stars, person.pose.leftEar.x, person.pose.leftEar.y, 200, 200);
 
 }
 
