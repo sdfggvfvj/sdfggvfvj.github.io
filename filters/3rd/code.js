@@ -16,6 +16,7 @@ function preload(){
 	clouds2 = loadImage('i/clouds-2.png');
 	clouds3 = loadImage('i/clouds-3.png');
 	waterfall = loadImage('i/waterfall.gif');
+	tree = loadImage('i/tree.png');
 
 }
 
@@ -74,7 +75,7 @@ function drawKeyPoints(person){
 
 	for(var j = 0; j < person.pose.keypoints.length; j++){
 		var keypoint = person.pose.keypoints[j];
-		image(clouds2,
+		image(tree,
 				keypoint.position.x,
 				keypoint.position.y,
 				displayWidth,displayHeight
