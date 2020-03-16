@@ -25,7 +25,7 @@ function whatever2(results) {
 
 
 function setup(){
-	createCanvas(840, 480);
+	createCanvas(displayWidth, displayHeight);
 	video = createCapture(VIDEO);
 	video.size(width, height);
 
