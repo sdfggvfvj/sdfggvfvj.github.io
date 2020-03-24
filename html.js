@@ -11,6 +11,8 @@ window.onload = () => {
 
 
 
+
+
 		// create an div html element
 		var worksElement = document.createElement("div");
 		    worksElement.className = "works";
@@ -24,7 +26,6 @@ window.onload = () => {
 		//var titleElement = document.createElement("p");
 	      //titleElement.className = "titles";
 		    //titleElement.innerText = worksItem.titles;
-
 
 
 
@@ -57,6 +58,7 @@ window.onload = () => {
 		//priceElement.innerText = worksItem.priceEuro;
 		// adding the virtual elements to actual html page by appending them
 		// to body element
+
 		worksElement.append(linkElement);
 		//worksElement.append(titleElement);
     worksElement.append(photoElement);
