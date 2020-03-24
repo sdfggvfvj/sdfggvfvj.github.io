@@ -29,7 +29,7 @@ var data = {
         "titles": "TaoBaoTu made for QiaoHeTang",
         "description": "I made two images for Qiaochu Guo's Project - QiaoHeTang, presented at Temporary Art Center Eindhoven, 2019",
         "maker": "name",
-        "url": ''
+        "url": 'details/taobaotu_for_qiaohetang.html'
       },
 
       {
