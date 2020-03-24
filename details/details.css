@@ -2,13 +2,29 @@ body {
   font-family: helvetica;
   background-color: #e5e5e5;
 }
-
+.nav {
+  float:right;
+  width: 200px;
+}
 .back {
-  float: right;
+  float:right;
   font-size: 40px;
 }
 .images {
   width: 1000px;
+}
+.description {
+
+  margin-top: 100px;
+  background-color: white;
+  float:right;
+  border: 1px solid white;
+  /*border-radius: 20px;*/
+}
+
+.description p {
+  margin: 0px;
+  font-size: 18px;
 }
 .images img {
   text-align: center;
