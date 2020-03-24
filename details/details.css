@@ -2,3 +2,40 @@ body {
   font-family: helvetica;
   background-color: #e5e5e5;
 }
+
+.back {
+  float: right;
+  font-size: 40px;
+}
+.images {
+  width: 1000px;
+}
+.images img {
+  text-align: center;
+  width: 800px;
+}
+
+a:link {
+  color: #b400ff;
+  text-decoration: none;
+  background-color: white;
+}
+
+/* visited link */
+a:visited {
+  color: #b400ff;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+  text-decoration: none;
+  background-color: blue;
+}

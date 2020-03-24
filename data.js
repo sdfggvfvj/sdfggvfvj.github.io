@@ -37,7 +37,7 @@ var data = {
         "titles": "artificial landscape",
         "description": "creating a way of generating pictures",
         "maker": "name",
-        "url": ''
+        "url": 'details/artificial_landscapes.html'
       },
 
       {
