@@ -19,10 +19,14 @@ body {
 
 img {
   width: 100%;
+  -webkit-box-shadow: 10px 20px 67px -25px rgba(0,0,0,0.24);
+  -moz-box-shadow: 10px 20px 67px -25px rgba(0,0,0,0.24);
+  box-shadow: 10px 20px 67px -25px rgba(0,0,0,0.24);
 }
 
 
 .description {
+  margin-bottom: 60px;
   padding-left: 20px;
   padding-top: 10px;
   text-align: right;
