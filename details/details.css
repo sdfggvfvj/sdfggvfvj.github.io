@@ -10,6 +10,9 @@ body {
   float:right;
   font-size: 40px;
 }
+img {
+  margin-bottom: 300px;
+}
 .images {
   width: 1000px;
 }
