@@ -5,7 +5,7 @@ body {
 
 .titles {
   color: #b400ff;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: light;
 }
 
@@ -34,4 +34,30 @@ img {
   border-color: black;
   border-style: solid;
   border-width: thin;
+}
+
+/* unvisited link */
+a:link {
+  color: #b400ff;
+  text-decoration: none;
+  background-color: white;
+}
+
+/* visited link */
+a:visited {
+  color: #b400ff;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+  text-decoration: none;
+  background-color: blue;
 }

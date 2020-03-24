@@ -9,14 +9,21 @@ window.onload = () => {
 
 	works.forEach(function(worksItem){
 
+
+
 		// create an div html element
 		var worksElement = document.createElement("div");
 		    worksElement.className = "works";
 
+				var linkElement = document.createElement("a");
+				worksElement.className = "titles";
+				linkElement.href = worksItem.url;
+				linkElement.innerText = worksItem.titles;
+
 		// create an p element for the name
-		var titleElement = document.createElement("p");
-	      titleElement.className = "titles";
-		    titleElement.innerText = worksItem.titles;
+		//var titleElement = document.createElement("p");
+	      //titleElement.className = "titles";
+		    //titleElement.innerText = worksItem.titles;
 
 
 
@@ -24,6 +31,7 @@ window.onload = () => {
 
     var photoElement = document.createElement("img");
 	      photoElement.src = "i/" + worksItem.image;
+
 
         // create an p element for the name
         //var makerElement = document.createElement("h1");
@@ -37,6 +45,8 @@ window.onload = () => {
 
 
 
+
+
     // create an span element for the category
     //var categoryElement = document.createElement("span");
 		//categoryElement.className = "category";
@@ -47,10 +57,12 @@ window.onload = () => {
 		//priceElement.innerText = worksItem.priceEuro;
 		// adding the virtual elements to actual html page by appending them
 		// to body element
-		worksElement.append(titleElement);
+		worksElement.append(linkElement);
+		//worksElement.append(titleElement);
     worksElement.append(photoElement);
     //worksElement.append(makerElement);
     worksElement.append(descriptionElement);
+
 		//worksElement.append(photoElement);
 		//worksElement.append(categoryElement);
 		//worksElement.append(priceElement);
