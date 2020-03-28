@@ -19,5 +19,6 @@ p {
   color: black;
   font-size: 300px;
   border: none;
+  width:800px;
   height: 500px;
 }
