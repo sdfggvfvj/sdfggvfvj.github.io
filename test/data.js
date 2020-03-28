@@ -15,10 +15,22 @@ var data = {
 
           {
 
-            "v_titles": "ashley ho",
-            "v_description": "Currently consisting of 5 discrete exercises, smudging series explores personal and collective approaches to recollection and inscription. It researches literal and figurative corporal traces – the historical marks left in bodies, and the ones bodies leave behind, marking tangible and intangible terrains.",
-            "v_src":"https://player.vimeo.com/video/368141976"
+            "v_titles": "kuan-ting chen",
+            "v_description": "Typo-Projection method",
+            "v_src":"https://www.youtube.com/embed/k4F6TTZSZNM"
+          },
+
+
+
+          {
+
+            "v_titles": "lu lin",
+            "v_description": "The project “me, object” is an interactive game which consists of the processes of exploring personality and identity. With this game I want to trigger the participants to experience a journey of self-discovery. In the game, each person will individually question their openness, sense of beauty, joy, emotion, value for fashion, trust and examine their own ego.",
+            "v_src":"https://www.youtube.com/embed/TnL3EUm3fDw"
           }
+
+
+
 
     ]
 }
