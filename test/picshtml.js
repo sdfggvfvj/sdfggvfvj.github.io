@@ -21,9 +21,9 @@ window.onload = () => {
         var photoElement = document.createElement("img");
     	      photoElement.src = "i/" + photosItem.p_images;
 
-		var linkElement = document.createElement("p");
-				linkElement.className = "pic_titles";
-				linkElement.innerText = photosItem.p_titles;
+		var tElement = document.createElement("p");
+				tElement.className = "pic_titles";
+				tElement.innerText = photosItem.p_titles;
 
         var desElement = document.createElement("p");
     				desElement.className = "pic_descriptions";
@@ -49,6 +49,8 @@ window.onload = () => {
 		photosElement.append(linkElement);
 
     photosElement.append(photoElement);
+
+	  photosElement.append(tElement);
 
     photosElement.append(desElement);
 

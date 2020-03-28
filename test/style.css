@@ -63,8 +63,21 @@ font-size: 25px;}
   margin-top: 0;
   margin-bottom: 0;
 }
+.pic_titles {
+  font-size: 100px;
+  margin-top: 0;
+  margin-bottom: 0;
 
+}
 .video_descriptions {
+  margin-top: 0;
+  font-size: 20px;
+  float: right;
+  width: 400px;
+  text-align: left;
+}
+
+.pic_descriptions {
   margin-top: 0;
   font-size: 20px;
   float: right;

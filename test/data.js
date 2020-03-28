@@ -22,3 +22,14 @@ var data = {
 
     ]
 }
+
+var picsdata = {
+  "photos":[
+    {   "p_images": "1.jpg",
+        "p_descriptions": "test pic",
+        "p_titles": "hah",
+        "p_src":"https://www.youtube.com/embed/1wFbWfACKco"
+
+      }
+    ]
+}
