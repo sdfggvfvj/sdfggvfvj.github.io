@@ -1,13 +1,19 @@
 body {
   font-family: helvetica;
-  background-color: white;
+  color: white;
+  background: url(i/bg.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.7;
 
 }
 
 /* Style The Dropdown Button */
 .dropbtn {
-  background-color: #fff;
-  color: black;
+  background-color: transparent;
+  color: white;
   font-size: 30px;
   border: none;
   cursor: pointer;
@@ -23,21 +29,22 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #fff;
+  background-color: transparent;
   min-width: 200px;
   z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
+  color: white;
+  font-size: 25px;
   padding: 8px 5px;
   text-decoration: none;
   display: block;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #fff;
+.dropdown-content a:hover {background-color: transparent;
 
 font-size: 25px;}
 
@@ -48,7 +55,7 @@ font-size: 25px;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #fff;
+  background-color: transparent;
 }
 
 .nav {
@@ -93,25 +100,25 @@ font-size: 25px;}
 
 
 a:link {
-  color: black;
+  color: white;
 	text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: black;
+  color: white;
 	text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-  color: green;
+  color: purple;
   text-decoration: none;
 }
 
 /* selected link */
 a:active {
-  color: purple;
+  color: blue;
 	text-decoration: none;
 }
 
