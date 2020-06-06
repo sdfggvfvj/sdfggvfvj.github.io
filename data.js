@@ -1,6 +1,12 @@
 var data = {
   "works":[
     {
+        "image": "6813DA.jpg",
+        "titles": "my home ",
+        "description": "a bar only exists in google map",
+        "url": "https://goo.gl/maps/CTw3cj4gvLJrGA8G9"
+      },
+    {
         "image": "IMG_8570.jpg",
         "titles": "tba",
         "description": "a collaborative project with Jing He and Yi Shen, to be announced",
