@@ -9,8 +9,19 @@ body {
   font-size: 50px;
   font-weight: light;
 }
+.buttons {
+  margin-top: 15px;
+  margin-right: 5px;
+  float: right;
+}
+.buttons a {
+  font-style: italic;
+  padding: 5px 5px 5px 30px;
+  border-radius: 100px;
+}
 
 .info {
+  font-style: italic;
   margin: -5px;
   font-size: 30px;
 }
@@ -19,7 +30,7 @@ body {
 }
 
 img {
-  width: 100%;
+  width: 90%;
   -webkit-box-shadow: 10px 20px 67px -25px rgba(0,0,0,0.24);
   -moz-box-shadow: 10px 20px 67px -25px rgba(0,0,0,0.24);
   box-shadow: 10px 20px 67px -25px rgba(0,0,0,0.24);
