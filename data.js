@@ -1,6 +1,13 @@
 var data = {
   "works":[
     {
+        "image": "IMG_8570.jpg",
+        "titles": "tba",
+        "description": "a collaborative project with Jing He and Yi Shen, to be announced",
+        "url": "#"
+      },
+
+    {
         "image": "windowsdrawing.jpg",
         "titles": "windowspaint",
         "description": "~~",
