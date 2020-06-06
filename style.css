@@ -10,14 +10,14 @@ body {
   font-weight: light;
 }
 .buttons {
+  font-size: 20px;
+  background-image: url(i/name.jpg);
   margin-top: 15px;
   margin-right: 5px;
   float: right;
 }
 .buttons a {
-  font-style: italic;
   padding: 5px 5px 5px 30px;
-  border-radius: 100px;
 }
 
 .info {
