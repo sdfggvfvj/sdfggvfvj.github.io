@@ -1,6 +1,13 @@
 var data = {
   "works":[
     {
+        "image": "windowsdrawing.jpg",
+        "titles": "windowspaint",
+        "description": "~~",
+        "url": "#"
+      },
+
+    {
         "image": "thefusion-2.jpeg",
         "titles": "the fusion",
         "description": "a video about dreams and memories",
