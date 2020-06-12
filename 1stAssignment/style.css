@@ -1,5 +1,5 @@
 body {
-    font-size: 15px;
+    font-size: 40px;
     font-family: helvetica;
     font-style: italic;
     font-weight: lighter;
@@ -52,7 +52,7 @@ body {
 }
 
 #winter_11 {
-    background-color: brown;
+    background-color: #cceb34;
 }
 
 #winter_12 {
@@ -62,7 +62,7 @@ body {
 img {
     position: absolute;
     opacity: 0;
-    width: 300px;
+    width: 400px;
     height: auto;
     left: 0;
     top: -10px;
