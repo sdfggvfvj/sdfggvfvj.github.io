@@ -1,0 +1,91 @@
+body {
+    font-size: 15px;
+    font-family: helvetica;
+    font-style: italic;
+    font-weight: lighter;
+
+}
+.winter{
+    position: relative;
+    float: left;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    background-color: lightgray;
+    border-radius: 40px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+#winter_1 {
+    background-color: blue;
+}
+
+#winter_2 {
+    background-color: yellow;
+}
+
+#winter_3 {
+    background-color: pink;
+}
+
+#winter_4 {
+    background-color: red;
+}
+
+#winter_5 {
+    background-color: darkred;
+}
+
+#winter_6 {
+    background-color: grey;
+}
+
+#winter_7 {
+   background-color: lightblue;
+}
+
+
+#winter_10 {
+    background-color: lightpink;
+}
+
+#winter_11 {
+    background-color: brown;
+}
+
+#winter_12 {
+    background-color: blue;
+}
+
+img {
+    position: absolute;
+    opacity: 0;
+    width: 300px;
+    height: auto;
+    left: 0;
+    top: -10px;
+    transition: all 0.5s ease;
+    pointer-events: none;
+    z-index: -100;
+}
+
+.winter:hover img {
+    opacity: 1;
+    left:0px;
+    top: 100px;
+
+    transition: all 0.5s ease;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+
+}
