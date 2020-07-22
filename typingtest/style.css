@@ -1,0 +1,15 @@
+@font-face {
+font-family:  sharpenmatters;
+src: url(SharpenMatters-2.0-Regular.woff);
+}
+
+*{
+  font-family: sharpenmatters;
+  font-size: 100px;
+}
+
+textarea{
+  width: 100vw;
+  height: 100vh;
+  border: none;
+}
