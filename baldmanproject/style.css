@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.title p:nth-of-type(1){
+  margin-top: 0;
+  color: pink;
+  font-size: 3vw;
+}
+
+.title p:nth-of-type(2){
+  color: pink;
+  font-size: 1vw;
+}
+#images {
+  width: 100vw;
+  /*border-radius: 20px;
+  border-color: red;
+  border-style: solid;
+  border-width: thin;*/
+}
+
+#images img{
+  float:left;
+  margin: 1vw;
+  width: 20vw;
+  border-radius: 100px;
+
+}
+
+
+a:link{
+  text-decoration: none;
+  color: green;
+}
+a::before {
+  text-decoration: none;
+}
+a::after {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
