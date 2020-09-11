@@ -32,10 +32,10 @@ body {
 
 #menu p:nth-of-type(1) {
   color: #f500e9;
-  font-size: 3vw;
+  font-size: 4vw;
 }
 #menu p:nth-of-type(2) {
-  font-size: 3vw;
+  font-size: 4vw;
   color: green;
 }
 
