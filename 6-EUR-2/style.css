@@ -1,0 +1,50 @@
+body {
+  font-family: helvetica;
+  font-style: italic;
+}
+#description {
+  padding: 2vw;
+  font-size: 3vw;
+  float: right;
+  width: 40vw;
+  height: 100vh;
+}
+#description p:nth-child(1) {
+  color: #00d8f5;
+
+}
+
+#description p:nth-child(2) {
+  color: red;
+
+}
+#menu {
+  margin: 10px;
+  float:left;
+  background-color: yellow;
+  width:50vw;
+  border-width: thin;
+  border-radius: 20px;
+  border-color: #00d8f5;
+  border-style: solid;
+  text-align: center;
+}
+
+#menu p:nth-of-type(1) {
+  color: #f500e9;
+  font-size: 3vw;
+}
+#menu p:nth-of-type(2) {
+  font-size: 3vw;
+  color: green;
+}
+
+
+#menu img {
+  padding-top:20px;
+  width: 30vw;
+}
+
+.details {
+  width: 50vw;
+}
