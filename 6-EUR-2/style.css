@@ -4,7 +4,9 @@ body {
   font-style: italic;
 }
 #description {
-  padding: 2vw;
+  margin-top:0;
+  padding-left: 2vw;
+  padding-right: 2vw;
   font-size: 3vw;
   float: right;
   width: 40vw;

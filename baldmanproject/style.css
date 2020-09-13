@@ -7,6 +7,7 @@ body {
   margin-top: 0;
   color: pink;
   font-size: 3vw;
+
 }
 
 .title p:nth-of-type(2){
@@ -15,20 +16,30 @@ body {
 }
 #images {
   width: 100vw;
-  /*border-radius: 20px;
-  border-color: red;
-  border-style: solid;
-  border-width: thin;*/
 }
 
 #images img{
-  float:left;
-  margin: 1vw;
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+  opacity: 70%;
+  float: left;
+  margin-top: -6vw;
+  margin-right: -6vw;
   width: 20vw;
   border-radius: 100px;
 
 }
+#images img:hover {
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+  opacity: 90%;
+  float: left;
+  margin-top: -6vw;
+  margin-right: -6vw;
+  width: 20vw;
+  border-radius: 100px;
 
+}
 
 a:link{
   text-decoration: none;
