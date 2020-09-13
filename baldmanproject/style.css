@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: #e1e1e1;
   font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
@@ -23,8 +23,7 @@ body {
   -webkit-filter: blur(0px);
   opacity: 70%;
   float: left;
-  margin-top: -6vw;
-  margin-right: -6vw;
+    margin-right: -6vw;
   width: 20vw;
   border-radius: 100px;
 
@@ -34,8 +33,7 @@ body {
   -webkit-filter: blur(0px);
   opacity: 90%;
   float: left;
-  margin-top: -6vw;
-  margin-right: -6vw;
+  margin-right: -6 vw;
   width: 20vw;
   border-radius: 100px;
 
