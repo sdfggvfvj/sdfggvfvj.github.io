@@ -1,0 +1,41 @@
+body {
+	background-color: #e1e1e1;
+	font-family: helvetica;
+}
+#basic_info {
+	color: black;
+	margin: 0px;
+}
+
+#basic_info p {
+	font-weight: lighter;
+	font-size:3vw;
+	margin:0;
+}
+.content {
+	height: 20vw;
+	background: white;
+	-webkit-box-shadow: inset 3px 3px 50px 24px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 3px 3px 50px 24px rgba(0,0,0,0.75);
+    box-shadow: inset 3px 3px 50px 24px rgba(0,0,0,0.75);
+	border-radius: 100vw;
+	border-color: #e1e1e1;
+	padding:4vw;
+}
+
+.content img {
+	width: 80vw;
+	padding:15vw;
+}
+iframe {
+	border-radius: 2vw;
+	margin:10vw;
+	width: 80vw;
+	height: 60vh;	
+}
+
+.description p:nth-of-type(2)
+
+{ color: blue;
+
+}
