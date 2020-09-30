@@ -1,5 +1,5 @@
 body {
-  background-color: #4d4d4d;
+  background-color: black;
   font-family: helvetica;
 }
 #nav {
@@ -7,7 +7,7 @@ body {
   margin-bottom: 5vh;
 }
 #nav a{
-  font-size: 4vw;
+  font-size: 3vw;
   background-color: white;
   color: black;
   font-style: italic;
@@ -49,50 +49,4 @@ box-shadow: inset 0px 0px 18px 0px rgba(0,255,242,1);
   -webkit-box-shadow: inset 0px 0px 18px 0px rgba(0,0,0,1);
 -moz-box-shadow: inset 0px 0px 18px 0px rgba(0,0,0,1);
 box-shadow: inset 0px 0px 18px 0px rgba(0,0,0,1);
-}
-
-#content {
-  margin-left: 10vw;
-
-}
-#content img{
-  opacity: 80%;
-  margin-top: 1vw;
-  margin-left: -10vw;
-  margin-bottom: -10vh;
-  border-style:solid;
-  border-width: thin;
-  border-color: pink;
-  border-radius: 50vw;
-  width: 30vw;
-}
-
-#content img {
-  float:left;
-}
-
-#mixed {
-
-
-}
-
-#mixed img{
-  border-radius: 2vw;
-  -webkit-box-shadow: 0px 0px 26px 8px rgba(0,255,68,1);
-  -moz-box-shadow: 0px 0px 26px 8px rgba(0,255,68,1);
-  box-shadow: 0px 0px 26px 8px rgba(0,255,68,1);
-  width: 50vw;
-}
-
-#mixed img:nth-of-type(1) {
-  border-radius: 2vw;
-  float:left;
-}
-#mixed img:nth-of-type(2) {
-  border-radius: 2vw;
-  float:right;
-}
-#mixed img:nth-of-type(3) {
-  border-radius: 2vw;
-  float:left;
 }
