@@ -8,6 +8,7 @@ body {
   color: #b400ff;
   font-size: 50px;
   font-weight: light;
+
 }
 .buttons {
   font-size: 20px;
@@ -31,9 +32,6 @@ body {
 
 img {
   width: 95%;
-  -webkit-box-shadow: 10px 20px 67px -25px rgba(0,0,0,0.24);
-  -moz-box-shadow: 10px 20px 67px -25px rgba(0,0,0,0.24);
-  box-shadow: 10px 20px 67px -25px rgba(0,0,0,0.24);
 }
 
 

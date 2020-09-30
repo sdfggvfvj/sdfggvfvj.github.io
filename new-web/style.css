@@ -12,26 +12,27 @@ body {
 	font-size:3vw;
 	margin:0;
 }
-.content {
-	height: 20vw;
+#works {
+	height: 60vw;
 	background: white;
 	-webkit-box-shadow: inset 3px 3px 50px 24px rgba(0,0,0,0.75);
     -moz-box-shadow: inset 3px 3px 50px 24px rgba(0,0,0,0.75);
     box-shadow: inset 3px 3px 50px 24px rgba(0,0,0,0.75);
-	border-radius: 100vw;
+	border-radius: 3vw;
 	border-color: #e1e1e1;
-	padding:4vw;
+	padding:1vw;
 }
 
-.content img {
+#works img {
 	width: 80vw;
 	padding:15vw;
 }
+
 iframe {
 	border-radius: 2vw;
 	margin:10vw;
 	width: 80vw;
-	height: 60vh;	
+	height: 60vh;
 }
 
 .description p:nth-of-type(2)
