@@ -34,6 +34,8 @@ window.onload = () => {
 	      photoElement.src = "i/" + worksItem.image;
 
 
+
+
         // create an p element for the name
         //var makerElement = document.createElement("h1");
             //makerElement.className = "maker";

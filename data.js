@@ -1,7 +1,21 @@
 var data = {
   "works":[
+
     {
-        "image": "6813DA.jpg",
+        "image": [
+          "3d.png",
+
+          ],
+        "titles": "torture.hub",
+        "description": "I made 3d objects to play with the digital images",
+        "url": "-"
+      },
+
+    {
+        "image": [
+          "6813DA.jpg",
+
+          ],
         "titles": "my home ",
         "description": "a bar only exists in google map",
         "url": "https://goo.gl/maps/CTw3cj4gvLJrGA8G9"
