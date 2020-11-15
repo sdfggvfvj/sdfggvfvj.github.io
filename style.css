@@ -6,36 +6,39 @@ body {
 
 .titles {
   color: #b400ff;
-  font-size: 50px;
+  font-size: 7vw;
   font-weight: light;
 
 }
 .buttons {
-  font-size: 20px;
+  font-size: 4vw;
   background-image: url(i/name.jpg);
-  margin-top: 15px;
-  margin-right: 5px;
+  margin-top: 0vw;
+  margin-right: 0vw;
   float: right;
 }
 .buttons a {
-  padding: 5px 5px 5px 30px;
+  padding: 1vw 1vw 1vw 2vw;
 }
 
 .info {
-  font-style: italic;
-  margin: -5px;
-  font-size: 30px;
+  margin: 0vw;
+  font-size: 3vw;
 }
 .info p {
-  margin-top: -10px;
+  margin-top: -1vw;
 }
 
 img {
-  width: 95%;
+  width: 100%;
 }
 
 
 .description {
+  width:auto;
+  /*border-color: black;
+  border-style: solid;
+  border-width: thin;*/
   margin-bottom: 60px;
   padding-left: 20px;
   padding-top: 10px;
@@ -45,9 +48,6 @@ img {
   margin-top: 0px;
   font-size: 30px;
   color: green;
-  border-color: black;
-  border-style: solid;
-  border-width: thin;
 }
 
 /* unvisited link */
