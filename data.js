@@ -7,7 +7,7 @@ var data = {
 
           ],
         "titles": "torture.hub",
-        "description": "I made 3d objects to play with the digital images",
+        "description": "using 3d model software to explore a new way to generate images that could disturb myself or suprise myself. I play with simple textures/ elements of nature (fire/water/fur etc.)to generate new images.",
         "url": "-"
       },
 
@@ -17,20 +17,20 @@ var data = {
 
           ],
         "titles": "my home ",
-        "description": "a bar only exists in google map",
+        "description": "a bar only exists in google map, using 3d sculpturing app to draw on real scence, explore the combination of real and virual world.",
         "url": "https://goo.gl/maps/CTw3cj4gvLJrGA8G9"
       },
     {
         "image": "IMG_8570.jpg",
         "titles": "tba",
-        "description": "a collaborative project with Jing He and Yi Shen, to be announced",
+        "description": "a collaborative project with Jing He and Yi Shen, to be announced, (typograhy+logo design)",
         "url": "#"
       },
 
     {
         "image": "windowsdrawing.jpg",
         "titles": "windowspaint",
-        "description": "~~",
+        "description": "only using circle of windowspaint to draw things",
         "url": "#"
       },
 
@@ -44,7 +44,7 @@ var data = {
       {
         "image": "lily.png",
         "titles": "Lily's Photographs",
-        "description": "a fictional documentary about a photographer whose name is Lily.",
+        "description": "Lily is a photographer, this is a introduction of Lily and her photography",
         "url": "https://www.youtube.com/watch?v=1wFbWfACKco"
       },
 
@@ -58,7 +58,7 @@ var data = {
       {
         "image": "qiaohetang-1.jpg",
         "titles": "TaoBaoTu made for QiaoHeTang",
-        "description": "I made two images for Qiaochu Guo's Project - QiaoHeTang, presented at Temporary Art Center Eindhoven, 2019",
+        "description": "Two posters made for Qiaochu Guo's Project - QiaoHeTang, presented at Temporary Art Center Eindhoven, 2019",
         "url": 'details/taobaotu_for_qiaohetang.html'
       },
 
