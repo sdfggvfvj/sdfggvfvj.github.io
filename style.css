@@ -11,11 +11,12 @@ body {
 
 }
 .buttons {
+  position: fixed;
   font-size: 4vw;
-  background-image: url(i/name.jpg);
   margin-top: 0vw;
   margin-right: 0vw;
-  float: right;
+  margin-left: 1vw;
+  right: 0;
 }
 .buttons a {
   padding: 1vw 1vw 1vw 2vw;
