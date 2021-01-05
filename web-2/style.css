@@ -3,13 +3,14 @@ body {
   font-family: 'Varela Round', sans-serif;
 }
 .nav {
-  background-color:#8b8f86;
-  height: 4vh;
+  background-color:#adb3a8;
+  height: 10vh;
   margin:-10px;
 }
 .nav a {
-  margin-bottom: 0;
-  margin-left:5px;
+
+  margin-left:1vw;
+  margin-bottom: 2vh;
   font-weight:lighter;
   font-size: 3vh;
   margin-right: 40px;
@@ -24,8 +25,10 @@ body {
   width:100%;
 }
 .info {
-  padding: 0vw 1vw 1vw 1vw;
-  color: blue;
+  width: 100vw;
+  height: 3vh;
+  font-size: 3vh;
+  color: #ad49a8;
   background-color:#deffef;
   position: fixed;
   bottom: 0;
@@ -37,7 +40,6 @@ body {
 }
 
 .info p:nth-of-type(2){
-  right:0;
   float:right;
   margin:0;
 }
@@ -46,6 +48,7 @@ body {
   color:blue;
 }
 #content {
+  font-size: 3vh;
   padding: 20px;
 }
 
@@ -68,6 +71,7 @@ body {
   width:70vw;
 }
 .descriptions p:nth-of-type(1) {
+  font-style: oblique;
   color:#1cd97e;
   font-size: 5vh;
   margin:0;
@@ -103,10 +107,34 @@ body {
     height: 600px;
 }
 .descriptions a {
-  color: blue;
+  font-style: italic;
+  font-size: 3vh;
+  color: red;
   margin-left: 5vw;
 }
 
 .descriptions a:hover {
   background-color: yellow;
+}
+.cv {
+  padding: 1vw;
+  width: 80vw;
+  background-color: #e3feff;
+    color:#1cd97e;
+
+}
+.printedmatters {
+  padding: 1vw;
+  width: 80vw;
+  background-color: #e3feff;
+  color:#1cd97e;
+
+}
+
+.typefaces {
+  padding: 1vw;
+  width: 80vw;
+  background-color: #e3feff;
+  color:#1cd97e;
+
 }
