@@ -1,0 +1,97 @@
+body {
+  background-image:url(i/bg-4.gif);
+  font-family: 'Arima Madurai', cursive;
+  font-weight:bolder;
+  font-size: 2vh;
+}
+.stream iframe {
+  border-radius: 1vw;
+  background-color: black;
+  width: 80vw;
+  height: 60vh;
+  margin-top:8vh;
+  margin-bottom:2vh;
+  margin-left: 10vw;
+
+}
+.stream {
+  opacity: 0.8;
+  background-color: #e1e1e1;
+  border-radius: 1vw;
+  margin-top:5vw;
+  background-color: #e1e1e1; rgba(212,255,210,1) 100%);
+}
+
+.description {
+  background-color: #e1e1e1;
+  border-radius: 1vw;
+  color: red;
+  padding:0.5vw;
+  margin-left: 10vw;
+  width: 40vw;
+}
+.description p:nth-of-type(2) {
+  color: blue;
+}
+
+#nav a {
+  font-size: 4vh;
+  margin: 1vw 1vw 1vw 1vw;
+  padding:0.2vw;
+  border-radius: 10vw;
+  background-color: lightpink;
+  text-decoration: none;
+  color: blue;
+  margin-left: 0.5vw;
+}
+.content {
+  background: rgb(255,185,245);
+  background: linear-gradient(90deg, rgba(255,185,245,1) 0%, rgba(212,255,210,1) 100%);
+  margin-top: 10vh;
+  margin-left: 10vw;
+  width: 80vw;
+  height: 90vh;
+  border-radius: 1vw;
+  border-color:#e1e1e1;
+  border-width: thin;
+  border-sty
+  width: 10vw;le: solid;
+}
+.content iframe {
+  margin-top: 10vh;
+  margin-bottom: 0;
+  width: 80vw;
+  height: 100vh;
+}
+#schedulebox {
+  margin-left: 1vw;
+  float: left;
+  text-align: center;
+  border-radius: 1vw;
+  background-color: #e1e1e1;
+  width: 20vw;
+  margin-top: 10vw;
+  padding:1vw 1vw 2vw 1vw;
+}
+.info {
+  background-color: #e1e1e1;
+}
+.time {
+  margin-bottom: 0;
+  color: blue;
+  font-size: 3.5vh;
+
+}
+.name {
+  font-size: 3vh;
+  font-weight:bold;
+  font-style:italic;
+
+}
+.creator {
+  margin-top:0;
+  font-size: 2.5vh;
+}
+#schedulebox img {
+  width: 20vw;
+}
