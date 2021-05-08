@@ -62,7 +62,7 @@ body {
 #videos iframe{
   opacity: 70%;
   /*border-radius: 10px;*/
-  width: 100%;
+  width: 50%;
   height: 600px;
 }
 
@@ -97,7 +97,7 @@ body {
 
 #images img {
   margin-bottom: -1vh;
-  width: 100%;
+  width: 50%;
 }
 #images iframe {
     border-width: thin;

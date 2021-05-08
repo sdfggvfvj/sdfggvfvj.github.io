@@ -1,0 +1,23 @@
+body{
+  background: blue;
+  font-family: helvetica;
+  margin: 0;
+}
+
+
+.box-one {
+  padding: 1vw;
+  float:left;
+  width: 30vw;
+  height: 100vh;
+  background-color:purple;
+}
+
+
+.box-two {
+  padding: 1vw;
+  float:right;
+  width: 64vw;
+  height: 100vh;
+  background-color:grey;
+}
