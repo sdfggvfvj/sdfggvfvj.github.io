@@ -2,6 +2,7 @@
 window.addEventListener("load", setup);
 window.addEventListener("mousemove", onMouseMove);
 window.addEventListener("mouseup", onMouseUp);
+//window.addEventListener("mousedown", up);
 
 //mémoire générale de l'image à faire déplacer
 var selectedImg;
@@ -17,8 +18,46 @@ var scaleRangeY;
 var rotateRange;
 var saveBt;
 
+var zindexmore = document.getElementById("zindexmore");
+var zindexless = document.getElementById("zindexless");
+var suppr = document.getElementById("suppr");
+var duplicate = document.getElementById("duplicate");
+
+/*var observe;
+//if (window.attachEvent) {
+//    observe = function (element, event, handler) {
+//        element.attachEvent('on'+event, handler);
+//    };
+//}
+//else {
+//    observe = function (element, event, handler) {
+//        element.addEventListener(event, handler, false);
+//    };
+//}
+function init () {
+    var txtArea = document.getElementById('txtArea');
+    function resize () {
+        txtArea.style.height = 'auto';
+        txtArea.style.height = txtArea.scrollHeight+'px';
+    }
+    /* 0-timeout to get the already changed txtArea */
+//    function delayedResize () {
+//        window.setTimeout(resize, 0);
+//    }
+/*   observe(txtArea, 'change',  resize);
+    observe(txtArea, 'cut',     delayedResize);
+    observe(txtArea, 'paste',   delayedResize);
+    observe(txtArea, 'drop',    delayedResize);
+    observe(txtArea, 'keydown', delayedResize);
+
+    txtArea.focus();
+    txtArea.select();
+    resize();
+}*/
+
 //init
 function setup() {
+
 
     var signesContainer = document.getElementById("signesContainer");
     //les images qui font icones de duplication!! (à l'intérieur des div)
@@ -28,6 +67,62 @@ function setup() {
     for (var i = 0; i < signesContainerImg.length; i++) {
         var img = signesContainerImg[i];
         img.addEventListener("mousedown", duplicateMe);
+    }
+
+    suppr.onclick=function(){
+        if (currentImg) {
+            currentImg.remove();
+        }
+    }
+    duplicate.onclick=function(){
+        if (currentImg) {
+            var copy = currentImg.cloneNode(true);
+            copy.style.position = "absolute";
+            copy.transform = {
+                "translation": { x: 0, y: 0 },
+                "scaleX": scaleRangeX.value,
+                "scaleY": scaleRangeY.value,
+                "rotate": rotateRange.value
+            }
+            copy.transform.translation.x = event.clientX;
+            copy.transform.translation.y = event.clientY;
+
+            apply(copy);
+
+            //add a moveMe Event
+            copy.addEventListener("mousedown", moveMe);
+            //add to the array for further use (print)
+            copyImg.push(copy);
+            //give an id to this copy
+            copy.id = "copy" + copyImg.length;
+            //add to the drop area for display
+            secondColumn.appendChild(copy);
+
+            selectedImg = copy;//pour le déplacement souris
+            currentImg = copy;//pour les transformation
+
+            //mise à jour val acutelle des sliders
+            scaleRange.value = currentImg.transform.scale;
+            //    scaleMirror.value = currentImg.transform.scaleX;
+            //    scaleRange.value = currentImg.transform.scaleY;
+            scaleRangeX.value = currentImg.transform.scaleX;
+            scaleRangeY.value = currentImg.transform.scaleY;
+            rotateRange.value = currentImg.transform.rotate;
+        }
+    }
+
+    var j = -1;
+    var k = 1;
+    zindexmore.onclick=function(){
+        if (currentImg) {
+            currentImg.style.zIndex = currentImg.style.zIndex-j;
+        }
+    }
+
+    zindexless.onclick=function(){
+        if (currentImg) {
+            currentImg.style.zIndex = currentImg.style.zIndex-k;
+        }
     }
 
     //références aux sliders
@@ -78,14 +173,33 @@ function setup() {
         }
     });
 
+    //var txtArea = document.getElementById("txtArea");
+    //txtArea.onmouseout=function(){
+        //txtArea.style.height=txtArea.scrollHeight+'px';
+    //}
+
+
+    //$('textarea').autoResize();
+
+
+
+
+
+
+
+
+
     //bouton de sauvegarde
     saveBt = document.getElementById("saveBt");
     saveBt.addEventListener("click", function () {
         var txtArea = document.getElementById("txtArea");
+        //txtArea.style.height=txtArea.scrollHeight+'px';
+        //        txtArea.style.width="auto";
         var secondColumn = document.getElementById("secondColumn");
         secondColumn.appendChild(txtArea);
 
         save();
+
     });
 }
 
@@ -102,6 +216,7 @@ function duplicateMe(event) {
         "scaleX": 1,
         "scaleY": 1,
         "rotate": 0
+        //        "zIndex": 1
     }
 
     copy.transform.translation.x = event.clientX;
@@ -139,6 +254,8 @@ function moveMe(event) {
     selectedImg = event.target;
     currentImg = event.target;
 
+
+    //    zindex1.value = currentImg.transform.zIndex;
     scaleRange.value = currentImg.transform.scale;
     //    scaleMirror.value = currentImg.transform.scaleX;
     scaleRangeX.value = currentImg.transform.scaleX;
@@ -191,14 +308,37 @@ function apply(element) {
     //    element.style.webkitTransform = "scale(" + element.transform.scale + "," + element.transform.scale + ") rotate(" + element.transform.rotate + "deg)";
 }
 
+//
+//currentImg.addEventListener ("mousedown", up);
+//
+//function up (event){
+//    currentImg.style.zIndex="20";
+//}
+
+
 //principe d'enregistrement d'une image
 
 function save() {
     console.log("save...");
+
     html2canvas(document.getElementById("secondColumn")).then((canvas) => {
         canvas.toBlob(function (blob) {
             saveAs(blob, "save.png");
-        }); 
+        });
+//        canvas.getContext('2d').drawImage(canvas,0,0,1000, 900);
+        dataURL = canvas.toDataURL();
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4) {}
+        };
+        xmlhttp.open("POST", 'script.php', true);
+        xmlhttp.setRequestHeader("Content-Type", 'application/x-www-form-urlencoded');
+        xmlhttp.send('data=' + dataURL);
     });
-}
 
+
+
+
+
+
+}

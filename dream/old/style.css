@@ -2,12 +2,11 @@
     margin: 0;
 }
 body{
-    background-color: #e1e1e1;
+    background-color: white;
     font-family: 'Varela Round', sans-serif;
 
 }
 .intro {
-  width: 25vw;
   font-size: 1.5rem;
   padding-left: 2.5%;
   padding-bottom: 2rem;
@@ -50,20 +49,20 @@ a:hover{
     font-size: 1.2em;
 }
 
-/*#signesContainer {
+#signesContainer {
   border-radius: 1rem;
-  margin: 2.5%;
-  padding: 1%;
-  position: relative;
-  background-color: lightgrey;
-  border: 1px solid black;
-  height: 30vh;
-  overflow-x:scroll;
-  width: auto;
-  max-width: 20%;
-  column-count: 3;
+    margin: 2.5%;
+    padding: 1%;
+    position: relative;
+    background-color: lightgrey;
+    border: 1px solid black;
+    height: 30vh;
+    overflow-x:scroll;
+    width: auto;
+    max-width: 20%;
+/*    max-width: 95%;*/
+    column-count: 3;
 }
-*/
 #signesContainer>img{
     pointer-events:all;
     width: 50px;
@@ -101,8 +100,8 @@ a:hover{
 #sliders{
     position: relative;
     margin-bottom: 1rem;
-    /*-webkit-box-shadow: 0px 0px 26px 0px rgba(113,69,255,0), 0px 0px 37px 6px rgba(99,252,237,0.93);
-    box-shadow: 0px 0px 26px 0px rgba(113,69,255,0), 0px 0px 37px 6px rgba(99,252,237,0.93);*/
+    -webkit-box-shadow: 0px 0px 26px 0px rgba(113,69,255,0), 0px 0px 37px 6px rgba(99,252,237,0.93);
+    box-shadow: 0px 0px 26px 0px rgba(113,69,255,0), 0px 0px 37px 6px rgba(99,252,237,0.93);
     background-color: #49ad8f;
     border-radius: 1rem;
     border: 1px solid none;
@@ -133,7 +132,6 @@ a:hover{
 }
 
 .slider::-webkit-slider-thumb {
-    z-index: 1000;
     -webkit-appearance: none;
     appearance: none;
     border-radius: 50%;
@@ -144,7 +142,6 @@ a:hover{
 }
 
 .slider::-moz-range-thumb {
-    z-index: 1000;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -157,23 +154,20 @@ a:hover{
 }
 
 #scaleRange {
-    z-index: 1000;
     position: relative;
 }
 #scaleRangeX {
-    z-index: 1000;
     position: relative;
 }
 #scaleRangeY {
-    z-index: 1000;
     position: relative;
 }
 #scaleMirror {
-    z-index: 1000;
     position: relative;
 }
 
-/*textarea{
+textarea{
+/*    outline: none;*/
     text-align: center;
     font-family: 'Varela Round', sans-serif;;
     font-size: 1.25rem;
@@ -190,7 +184,8 @@ a:hover{
     width: 20%;
     resize: both;
     /*min-width: 15%;
-    max-width: 15%;}*/
+    max-width: 15%;*/
+}
 
 .slidersButton{
     /*    width: 100%;*/
@@ -215,7 +210,6 @@ a:hover{
 }
 
 .bouton{
-  z-index: 1000;
     font-size: 1.5rem;
     font-family: 'Varela Round', sans-serif;
     /*    width: 100%;*/
@@ -245,7 +239,6 @@ a:hover{
 
 button{
     /*    width: 100%;*/
-    z-index: 1000;
     position: fixed;
     font-family: 'Varela Round', sans-serif;
     font-size: 1.5rem;
@@ -275,7 +268,6 @@ button:active{
     z-index: 1000;
 }
 .scale {
-  z-index: 1000;
   background-color: white;
   margin:0;
   border-radius: 1rem;
@@ -285,93 +277,4 @@ canvas{display: none;}
 #openButton{
     margin: 2.5%;
     position: relative;
-}
-
-#makeYours {
-  color: white;
-  background-color: blue;
-  padding: 1rem;
-  border-radius: 1rem;
-}
-
-#title {
-  background-color: purple;
-  color:white;
-  padding: 1rem;
-  border-radius: 1rem;
-}
-
-/*—————————————————NEW———————————————————————————————————*/
-
-#gallery{
-    position: absolute;
-    top: 10%;
-    width: 95%;
-    height: auto;
-    /*background-color: aliceblue;*/
-    column-count: 3;
-    padding: 2.5%;
-}
-#gallery>img{
-    border-radius: 1rem;
-    border:  1px solid black;
-    position: relative;
-    float: left;
-    width: 100%;
-    height: auto;
-    margin-bottom: 2.5%;
-}
-#title{
-    position: fixed;
-    margin: 2.5%;
-    top: 10px;
-    height: auto;
-    width: auto;
-    cursor: pointer;
-    z-index: 10000000;
-}
-#makeYours{
-    position: fixed;
-    margin: 2.5%;
-    top: 10px;
-    right: 0;
-    height: auto;
-    width: auto;
-    cursor: pointer;
-    z-index: 10000000;
-}
-#signesContainer {
-  z-index: 1000;
-  border-radius: 1rem;
-    margin: 2.5%;
-    margin-top: 7.5%;
-    padding: 1%;
-    position: relative;
-    background-color: #fcf5ff;
-    border: 1px solid none;
-    height: 30vh;
-    width: auto;
-    max-width: 20%;
-/*    max-width: 95%;*/
-    column-count: 3;
-    overflow-x: scroll;
-}
-textarea{
-/*    outline: none;*/
-text-align: center;
-font-family: 'Varela Round', sans-serif;;
-font-size: 1.25rem;
-border: 1px solid grey;
-border-radius: 2rem;
-position: fixed;
-padding: 1%;
-right: 2.5%;
-top: 0%;
-margin-top: 2.5%;
-height: 5vh;
-/*min-height: 2.5%;
-max-height: 15%;*/
-width: 60%;
-/*min-width: 15%;
-max-width: 15%;
 }
