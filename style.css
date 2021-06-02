@@ -138,3 +138,7 @@ body {
   color:#1cd97e;
 
 }
+.alert {
+  background-color: red;
+  font-size: 2rem;
+}
