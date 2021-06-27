@@ -8,6 +8,10 @@
 @media (orientation: portrait) {
   body {
     flex-direction:column;
+    color: white;
+    margin: 0;
+    font-family: "ovo","Noto Serif TC";
+    font-weight: lighter;
   }
 
   /* Style the tab */
