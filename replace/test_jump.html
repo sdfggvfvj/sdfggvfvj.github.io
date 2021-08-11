@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript Replace Character in a String</title>
+        <style>
+            a{text-decoration: none; color: black;}
+            .styleA{
+                color:red;
+            }
+            .styleB{
+                color:green;
+                vertical-align: sub;
+            }
+            .styleC{
+                font-size: 2em;
+                color:green;
+                vertical-align: sub;
+            }
+            .styleD{
+                font-size: 2em;
+                color:yellow;
+                vertical-align:super;
+            }
+            .styleE{
+                font-size: 1.5em;
+                color:purple;
+                vertical-align:super;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <p>Expérimentations et interrogations sur les systèmes d'inscription, d'organisation et de description de contenus. Allers et retours dans la fiction, la spéculation, l'histoire et la technique. Notions d'arborescence, de relations, d'interopérabilité, et d'incidences des formats sur la gestion des contenus. En bref, réflexions communes aux collectionneurs, archivistes, bibliothécaires, philatélistes, lépidoptéristes ou autres énumérophiles.</p>
+        <a href="mariemadonna.com">blablablablab</a>
+        
+        <script>
+            document.body.innerHTML = document.body.innerHTML.replace(/(a)(?=((?!>).)*<|[^<>]*$)/gi, '<span class="styleA">a</span>');
+            document.body.innerHTML = document.body.innerHTML.replace(/(b)(?=((?!>).)*<|[^<>]*$)/gi, '<span class="styleB">b</span>');
+            document.body.innerHTML = document.body.innerHTML.replace(/(c)(?=((?!>).)*<|[^<>]*$)/gi, '<span class="styleC">c</span>');
+            document.body.innerHTML = document.body.innerHTML.replace(/(d)(?=((?!>).)*<|[^<>]*$)/gi, '<span class="styleD">d</span>');
+            document.body.innerHTML = document.body.innerHTML.replace(/(e)(?=((?!>).)*<|[^<>]*$)/gi, '<span class="styleE">e</span>');
+        </script>
+    </body>
+</html>
