@@ -37,7 +37,7 @@ p {
   font-size: 10px;
 }
 @font-face {
-  font-family: CLOCK;
+  font-family: 'CLOCK';
   src: url(font/CLOCKCLOCK.woff);
 }
 #clock {
