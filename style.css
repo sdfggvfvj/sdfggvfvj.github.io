@@ -66,7 +66,7 @@ a:checked {
   color: transparent;
   vertical-align: super;
   font-size: 1em;
-  text-shadow: 0px 0 6px #FF5500, 0px 0px 0px rgba(206,89,55,0);
+  text-shadow: 0px 0 6px #000000, 0px 0px 0px rgba(0,0,0,0);
 }
 .letter-r {
   color: red;
@@ -75,7 +75,8 @@ a:checked {
 }
 .letter-p {
   color: green;
-  vertical-align:middle;
+  /* background-color: yellow; */
+  vertical-align:super;
   font-size: 0.5em;
 }
 
