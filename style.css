@@ -55,3 +55,27 @@ a:checked {
   text-decoration: none;
   color:blue;
 }
+
+/*letter-replaement*/
+
+.yes {
+  color: blue;
+  vertical-align: super;
+  font-size: 1em;
+}
+.letter-r {
+  color: red;
+  vertical-align: sub;
+  font-size: 0.5em;
+}
+.letter-p {
+  color: green;
+  vertical-align:middle;
+  font-size: 0.5em;
+}
+
+.letter-s {
+  /* color: red; */
+  vertical-align:middle;
+  font-size: 1em;
+}

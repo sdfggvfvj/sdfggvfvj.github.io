@@ -1,23 +1,23 @@
 findAndReplaceDOMText(document.body, {
   find: 'o',
-  wrap: 'span',
+  wrap: 'em',
   wrapClass:'yes',
 });
 
 findAndReplaceDOMText(document.body, {
   find: 'r',
-  wrap: 'span',
+  wrap: 'em',
   wrapClass:'letter-r',
 });
 
 findAndReplaceDOMText(document.body, {
   find: 'p',
-  wrap: 'span',
+  wrap: 'em',
   wrapClass:'letter-p',
 });
 
 findAndReplaceDOMText(document.body, {
   find: 's',
-  wrap: 'span',
+  wrap: 'em',
   wrapClass:'letter-s',
 });
