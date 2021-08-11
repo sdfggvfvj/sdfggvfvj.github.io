@@ -36,6 +36,10 @@ p {
   padding: 10px 0px;
   font-size: 10px;
 }
+@@font-face {
+  font-family: CLOCK;
+  src: url(font/CLOCKCLOCK.woff);
+}
 #clock {
   font-family: CLOCK;
 }
