@@ -6,6 +6,15 @@
 
         <style>
             *{margin: 0;}
+            @font-face {
+              src: url(CLOCK-Capital-Regular.ttf);
+              font-family: 'CLOCK'
+            }
+            body {
+              text-transform: uppercase;
+              font-family: CLOCK;
+              letter-spacing: 1em;
+            }
             .indicatorDot{
                 width: 30px;
                 height: 30px;
@@ -70,9 +79,9 @@
 
 //            var chars = "hello my name is marie and I am getting crazy here".split();
 //            lettre = document.createElement('span');
-//            lettre.className = 'stretch'; 
+//            lettre.className = 'stretch';
 //            lettre.innerHTML=chars(i);
-//            bottom.appendChild(lettre); 
+//            bottom.appendChild(lettre);
 ////            bottom.innerHTML = chars;
 
                         var s = "hello my name is marie and I am getting crazy here";
@@ -80,10 +89,10 @@
                             console.log(s.charAt(i));
 
                             lettre = document.createElement('span');
-                            lettre.className = 'stretch'; 
+                            lettre.className = 'stretch';
                             lettre.innerHTML=s.charAt(i);
-                            bottom.appendChild(lettre); 
-            
+                            bottom.appendChild(lettre);
+
                         }
 
 
@@ -92,7 +101,7 @@
             function getAccel(){
                 DeviceMotionEvent.requestPermission().then(response => {
                     if (response == 'granted') {
-                        // Add a listener to get smartphone orientation 
+                        // Add a listener to get smartphone orientation
                         // in the alpha-beta-gamma axes (units in degrees)
                         //                        console.log("hey");
                         window.addEventListener('deviceorientation',(event) => {
@@ -106,12 +115,12 @@
 
                             // Update velocity according to how tilted the phone is
                             // Since phones are narrower than they are long, double the increase to the x velocity
-                            vx = vx + leftToRight_degrees * updateRate*2; 
+                            vx = vx + leftToRight_degrees * updateRate*2;
                             vy = vy + frontToBack_degrees * updateRate;
 
                             // Update position and clip it to bounds
                             px = px + vx*.5;
-                            if (px > 18 || px < 0){ 
+                            if (px > 18 || px < 0){
                                 px = Math.max(0, Math.min(18, px)) // Clip px between 0-98
                                 vx = 0;
                             }
