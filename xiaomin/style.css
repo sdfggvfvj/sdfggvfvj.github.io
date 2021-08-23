@@ -75,6 +75,8 @@ a {
   width: 95vw;
 }
 .small-title {
+  border:0.2em dotted red;
+  border-radius: 1rem;
   font-size: 0.8rem;
   vertical-align: sub;
   color: red;
@@ -82,6 +84,7 @@ a {
   margin-right: 3rem;
   letter-spacing: 0.2rem;
   -webkit-text-stroke: 0.15rem red;
+  text-transform: capitalize;
   /* line-height: 5; */
 }
 .description p{
@@ -119,4 +122,25 @@ a {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: blue;
+}
+/* replace letter-style */
+.letter-m {
+  background-image: url(i/letter-m-2.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: transparent;
+  font-style: normal;
+  /* border-radius: 2rem;
+  border-top: 0.2rem dotted #FF0303;
+  border: 0.7rem dotted black; */
+}
+.letter-o{
+  background-image: url(i/bg-o.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: transparent;
+  font-style: normal;
+  /* border-radius: 2rem;
+  border-top: 0.2rem dotted #FF0303;
+  border: 0.7rem dotted black; */
 }
