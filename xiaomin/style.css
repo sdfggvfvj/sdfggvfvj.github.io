@@ -19,10 +19,10 @@ body {
   /* overflow: scroll; */
   width: 100vw;
 }
-/* .work-title {
+.work-title {
   z-index: 999999;
-  position: fixed;
-} */
+
+}
 .nav img {
    /* column-count: 3; */
   /* border: 1px solid red; */
