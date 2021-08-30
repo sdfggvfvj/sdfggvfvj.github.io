@@ -111,7 +111,9 @@ a:checked {
     word-spacing: 2rem;
 }
 #previews img {
-  border-top: 10rem dotted blue;
+
+/* border-image: url(i/bg-o.jpeg) 27 23 / 50px 30px / 1rem round space; */
+border: 0.1rem dashed blue;
   /* border-radius: 1.5rem; */
 position:relative;
 left: 50%;
@@ -122,4 +124,13 @@ width: 80vw;
 
 #preveiws-title {
   color: blue;
+}
+span {
+  color: transparent;
+  -webkit-text-stroke: 0.2rem transparent;
+  /* bg-for-letters */
+  background-image: url(i/bg-o.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
