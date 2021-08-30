@@ -24,6 +24,7 @@ p {
 .title {
   margin-bottom: 8rem;
 }
+
 .title>p:hover {
   font-size: 4vw;
 }
