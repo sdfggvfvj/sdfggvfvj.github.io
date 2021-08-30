@@ -102,6 +102,7 @@ a:checked {
 
 .typefaces-info {
   background-color: red;
+  padding: 1rem;
 }
 #previews {
   margin: 0;
@@ -110,7 +111,11 @@ a:checked {
     word-spacing: 2rem;
 }
 #previews img {
-  border-radius: 1.5rem;
+  border-top: 10rem dotted blue;
+  /* border-radius: 1.5rem; */
+position:relative;
+left: 50%;
+transform: translateX(-50%);
 height: auto;
 width: 80vw;
 }
