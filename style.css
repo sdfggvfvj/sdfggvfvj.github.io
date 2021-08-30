@@ -1,5 +1,9 @@
+@font-face {
+  src: url(font/routed-gothic-narrow.ttf);
+  font-family: 'Round'
+}
 body {
-  font-family: 'Lato', sans-serif, helvetica;
+  font-family: Round,'Lato', sans-serif, helvetica;
   /* font-family: CLOCK; */
   /* color: white; */
   /* text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00; */
@@ -84,4 +88,32 @@ a:checked {
   /* color: red; */
   vertical-align:middle;
   font-size: 1em;
+}
+/* typefaces-page */
+.typefaces {
+  font-size: 1.5rem;
+  word-spacing: 2rem;
+}
+
+.typefaces p {
+  -webkit-text-stroke: 0.2rem black;
+}
+
+.typefaces-info {
+  background-color: red;
+}
+#previews {
+  margin: 0;
+  color: blue;
+    font-size: 3rem;
+    word-spacing: 2rem;
+}
+#previews img {
+  border-radius: 1.5rem;
+height: auto;
+width: 80vw;
+}
+
+#preveiws-title {
+  color: blue;
 }
