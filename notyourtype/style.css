@@ -7,21 +7,53 @@
   src: url(../font/CLOCK-notRegular-Regular.otf);
   font-family: 'CLOCK'
 }
+::-moz-selection { /* Code for Firefox */
+  color: black;
+  background: white;
+}
+
+::selection {
+  color: black;
+  background: white;
+}
 body {
   margin: 0;
   background-color: black;
   font-family: pictype;
-  font-size: 15em;
   color: white;
 }
 .texts {
   font-family: pictype;
+  font-size: 15em;
+  line-height: 0.8em;
   margin: 0;
   text-align: center;
+  color: #FFFFFF;
+/* background: #232323; */
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
 }
 .CLOCK {
+  line-height: 0.8em;
   text-align: center;
   font-family: CLOCK;
-  font-size: 1em;
+  font-size: 10em;
 
+}
+textarea {
+  width: 100vw;
+  background-color: black;
+  color: white;
+  font-family: pictype;
+  font-size: 2em;
+}
+textarea:focus {
+  outline: none;
+}
+table {
+  text-align: center;
+  line-height: 0.8em;
+  font-family: CLOCK;
+  color:white;
+  font-size: 0.3em;
+  overflow-x: scroll;
 }
