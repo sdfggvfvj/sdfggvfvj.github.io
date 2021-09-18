@@ -1,0 +1,13 @@
+@font-face {
+  src: url(../font/pictype-Regular.ttf);
+  font-family: 'pictype'
+}
+
+body {
+  font-family: pictype;
+  font-size: 15em;
+}
+.texts {
+  margin: 0;
+  text-align: center;
+}
