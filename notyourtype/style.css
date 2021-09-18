@@ -3,11 +3,22 @@
   font-family: 'pictype'
 }
 
+@font-face {
+  src: url(../font/CLOCK-notRegular-Regular.otf);
+  font-family: 'CLOCK'
+}
 body {
   font-family: pictype;
   font-size: 15em;
 }
 .texts {
+  font-family: pictype;
   margin: 0;
   text-align: center;
+}
+.CLOCK {
+  text-align: center;
+  font-family: CLOCK;
+  font-size: 1em;
+
 }
