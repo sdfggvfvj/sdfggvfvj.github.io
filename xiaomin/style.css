@@ -186,3 +186,13 @@ a {
   /* font-size: 0.8rem; */
   vertical-align: sub;
 }
+/* selection color */
+::-moz-selection { /* Code for Firefox */
+  color: red;
+  background: blue;
+}
+
+::selection {
+  color: red;
+  background: blue;
+}

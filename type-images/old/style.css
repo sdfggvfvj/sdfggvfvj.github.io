@@ -1,0 +1,35 @@
+body {
+  font-family: helvetica;
+  background-color: white;
+  filter: contrast();
+}
+
+/*grid*/
+.grid-container {
+
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-gap: 2px;
+  background-color: none;
+  padding: 0px 0px;
+}
+.grid-container > div {
+  margin: 0;
+  background-color: none;
+  text-align: center;
+  padding: 0px 0px;
+  font-size: 10px;
+}
+.grid-container img {
+  width: 2em;
+}
+img:hover {
+  width: 20vw;
+  /* transform: rotate(2deg); */
+}
+#hover>p>img{
+  display: hidden;
+}
+#hover>p:hover #hover>p>img {
+  display: block;
+}
