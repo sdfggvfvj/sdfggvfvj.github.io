@@ -8,8 +8,11 @@
   font-family: 'CLOCK'
 }
 body {
+  margin: 0;
+  background-color: black;
   font-family: pictype;
   font-size: 15em;
+  color: white;
 }
 .texts {
   font-family: pictype;
