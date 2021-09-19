@@ -1,0 +1,71 @@
+@font-face {
+  src: url(../../font/pictype-Regular.ttf);
+  font-family: 'pictype';
+}
+
+@font-face {
+  src: url(../../font/CLOCK-notRegular-Regular.otf);
+  font-family: 'CLOCK';
+}
+
+@font-face {
+  src: url(../../font/routed-gothic-narrow.ttf);
+  font-family: 'Round';
+}
+
+@font-face {
+  src: url(../../font/26Raindrops-Regular.otf);
+  font-family: '26raindrops';
+}
+body {
+  background-color:#e1e1e1;
+  /* background-color: #dfcce6; */
+  font-family: CLOCK;
+}
+
+select {
+
+  font-size: 3rem;
+  -webkit-text-stroke: 0.1rem;
+  text-transform: uppercase;
+  font-family: CLOCK;
+  border: transparent;
+  text-align: center;
+  border-radius: 100rem;
+  padding: 2rem;
+  outline: none;
+  background-color: #dfcce6;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;       /* Remove default arrow */
+   /* background-image: url(...);   /* Add custom arrow */ */
+}
+/* option:focus {
+  font-family: CLOCK;
+} */
+p:focus {
+  outline: none;
+}
+p {
+  line-height:8rem;
+  font-size: 2rem;
+}
+/* selection style */
+::-moz-selection { /* Code for Firefox */
+  color: green;
+  /* background-image: url(../../i/1.jpg); */
+  background: #dfcce6;
+}
+
+::selection {
+  color: green;
+  /* background-image: url(../../i/1.jpg); */
+  background: #dfcce6;
+}
+
+#output-images {
+  width: 30vw;
+  /* position: fixed; */
+  right: 0;
+  left: 0;
+}

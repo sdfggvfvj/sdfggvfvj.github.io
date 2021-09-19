@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    not your type foundry
+  </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="text-align:center;">
+
+  <!-- <h1>not your type foundry</h1> -->
+  <select id="input-font" class="input" onchange="changeFontStyle (this);">
+    <option value="CLOCK" selected="selected"> CLOCK </option>
+    <option value="pictype">pictype</option>
+  </select>
+
+  <!--
+<select id="size" class="font-size" onchange="changeFontSize (this);">
+<option value="2rem" selected="selected">2rem</option>
+<option value="10rem">10rem</option>
+</select> -->
+
+
+  <select id="size" class="font-size" onchange="sizeFunction();">
+    <option value="2" selected="selected">2rem</option>
+    <option value="10">10rem</option>
+  </select>
+  <!-- replace -->
+
+  <select id="color" class="font-color" onchange="colorFunction();">
+    <option value="blck" selected="selected">black</option>
+    <option value="blue">blue</option>
+    <option value="red">red</option>
+  </select>
+
+  <select id="images" class="show-images" onchange="imagesFunction();">
+    <option value="CLOCK-0.png" selected="selected">1</option>
+    <option value="CLOCK-1.png">2</option>
+    <option value="CLOCK-2.png">3</option>
+    <option value="CLOCK-3.png">4</option>
+    <option value="CLOCK-4.png">5</option>
+    <option value="CLOCK-5.png">6</option>
+    <option value="CLOCK-6.png">7</option>
+    <option value="CLOCK-7.png">8</option>
+    <option value="CLOCK-8.png">9</option>
+  </select>
+  <!-- output -->
+  <div>
+    <p id="output-text" contenteditable="true" style="color:black;">
+      click here to type :)
+    </p>
+  </div>
+<!-- output-images -->
+  <div>
+    <!-- <img id="images" src ="../../2.png" > -->
+    <img id="output-images" src="">
+  </div>
+
+  <script>
+    var output = document.getElementById("output-text");
+    var changeImg = document.getElementById("output-images");
+
+    var changeFontStyle = function(font) {
+      output.style.fontFamily = font.value;
+    }
+
+
+
+    function sizeFunction() {
+      var result = document.getElementById("size").value;
+      output.style.fontSize = result + "rem";
+    }
+
+    function colorFunction() {
+      var result = document.getElementById("color").value;
+      output.style.color = result;
+    }
+
+    function imagesFunction() {
+      var result = document.getElementById("images").value;
+      changeImg.src = "../../i/fonts/"+result;
+    }
+  </script>
+
+
+</body>
