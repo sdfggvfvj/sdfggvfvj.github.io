@@ -58,10 +58,9 @@ p:focus {
 }
 
 div p {
-  margin: 5rem;
+  margin-top: 5rem;
   padding: 0.8rem;
   background-color: black
-
   -webkit-box-shadow: inset 0px 0px 22px 5px #fff;
   box-shadow: inset 0px 0px 22px 5px #fff;
   border-radius: 2rem;
@@ -92,6 +91,21 @@ p {
 }
 
 #output-images {
+  mix-blend-mode: exclusion;
+  width: 80vw;
+  /* position: fixed; */
+  right: 0;
+  left: 0;
+}
+#output-images:hover {
+  mix-blend-mode: multiply;
+  width: 80vw;
+  /* position: fixed; */
+  right: 0;
+  left: 0;
+}
+#output-images:active {
+  mix-blend-mode: multiply;
   width: 80vw;
   /* position: fixed; */
   right: 0;
