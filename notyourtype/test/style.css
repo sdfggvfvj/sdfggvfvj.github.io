@@ -34,7 +34,9 @@ select {
   border-radius: 100rem;
   padding: 2rem;
   outline: none;
-  background-color: #dfcce6;
+  -webkit-box-shadow: inset -2px 7px 50px 8px #FF7878;
+box-shadow: inset -2px 7px 50px 8px #FF7878;
+  /* background-color: #dfcce6; */
    -webkit-appearance: none;
    -moz-appearance: none;
    appearance: none;       /* Remove default arrow */
