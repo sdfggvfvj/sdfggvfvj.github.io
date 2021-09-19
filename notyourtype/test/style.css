@@ -133,3 +133,6 @@ footer {
   bottom: 0;
   position: fixed;
 }
+footer:hover {
+  display: none;
+}
