@@ -19,26 +19,27 @@
 }
 
 body {
-  background-image: url(../../i/bg-5.gif);
+  /* background-image: url(../../i/bg-5.gif);
 
-  background-size: cover;
-  background-color: #e1e1e1;
+  background-size: cover; */
+  background-color: #f53d00;
   font-family: CLOCK;
 }
 
 select {
   /* background-image: url(../../i/9.jpeg); */
-  background-image: url(../../i/bg-rain.gif);
-  background-color: lightblue;
+  /* background-image: url(../../i/bg-rice.gif); */
+  background-color: transparent;
   background-size: cover;
   letter-spacing: 0.2rem;
   font-size: 5rem;
   -webkit-text-stroke: 0.1rem;
   text-transform: uppercase;
   font-family: CLOCK;
-  border: transparent;
   text-align: center;
   border-radius: 100rem;
+  border: white;
+  /* border-radius: 100rem 0rem 100rem 0rem; */
   padding: 2rem;
   outline: none;
   -webkit-box-shadow: inset -2px 7px 50px 8px #e1e1e1;
@@ -64,7 +65,10 @@ p:focus {
 div p {
   margin-top: 5rem;
   padding: 0.8rem;
-  background-color: black -webkit-box-shadow: inset 0px 0px 22px 5px #fff;
+  background-image: url(../../i/bg-rain.gif);
+  background-size: cover;
+  background-position: center;
+  -webkit-box-shadow: inset 0px 0px 22px 5px #fff;
   box-shadow: inset 0px 0px 22px 5px #fff;
   border-radius: 2rem;
   /* overflow-y: hidden; */
@@ -117,8 +121,12 @@ p {
 }
 
 footer {
+  background-image: url(../../i/bg-crycat.gif);
+  background-position:center;
+  background-size:cover;
   color: red;
-  -webkit-text-stroke: 1rem rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1rem rgba(255, 255, 255, 0.85);
+  filter:blur(0.2rem);
   font-size: 10rem;
   right: 0;
   left: 0;
