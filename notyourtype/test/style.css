@@ -25,7 +25,7 @@ body {
 
 select {
   letter-spacing: 0.2rem;
-  font-size: 3rem;
+  font-size: 5rem;
   -webkit-text-stroke: 0.1rem;
   text-transform: uppercase;
   font-family: CLOCK;
@@ -47,7 +47,8 @@ p:focus {
   outline: none;
 }
 p {
-  line-height:8rem;
+  margin: 0;
+  line-height:auto;
   font-size: 2rem;
 }
 /* selection style */
@@ -64,7 +65,7 @@ p {
 }
 
 #output-images {
-  width: 30vw;
+  width: 80vw;
   /* position: fixed; */
   right: 0;
   left: 0;
