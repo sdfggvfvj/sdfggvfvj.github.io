@@ -19,7 +19,7 @@
 }
 
 body {
-  background-image: url(../../i/bg-rain.gif);
+  background-image: url(../../i/bg-5.gif);
 
   background-size: cover;
   background-color: #e1e1e1;
@@ -28,7 +28,7 @@ body {
 
 select {
   /* background-image: url(../../i/9.jpeg); */
-  background-image: url(../../i/bg-5.gif);
+  background-image: url(../../i/bg-rain.gif);
   background-color: lightblue;
   background-size: cover;
   letter-spacing: 0.2rem;
