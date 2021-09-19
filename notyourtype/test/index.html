@@ -33,7 +33,9 @@
   <!-- replace -->
 
   <select id="color" class="font-color" onchange="colorFunction();">
-    <option value="blck" selected="selected">black</option>
+    <option value="black" selected="selected">black</option>
+    <option value="white">white</option>
+    <option value="transparent">transparent</option>
     <option value="blue">blue</option>
     <option value="red">red</option>
   </select>
@@ -74,12 +76,12 @@
       click here to type :)
     </p>
   </div>
-<!-- output-images -->
+  <!-- output-images -->
   <div>
     <!-- <img id="images" src ="../../2.png" > -->
     <img id="output-images" src="">
   </div>
-
+<footer>not your type</footer>
   <script>
     var output = document.getElementById("output-text");
     var changeImg = document.getElementById("output-images");
@@ -102,7 +104,7 @@
 
     function imagesFunction() {
       var result = document.getElementById("images").value;
-      changeImg.src = "../../i/pictype/"+result;
+      changeImg.src = "../../i/pictype/" + result;
     }
   </script>
 
