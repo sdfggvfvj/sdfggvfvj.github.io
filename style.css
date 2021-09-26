@@ -44,6 +44,7 @@ p {
   /* margin-bottom: 5rem; */
   font-size: 4rem;
   padding-bottom: 10rem;
+  -webkit-text-stroke: 0.15rem;
 }
 
 /* .title>p:hover {
