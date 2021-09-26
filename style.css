@@ -37,12 +37,13 @@ p {
   font-size: 5vw;
 }
 .title {
-  background-color: #d8d9c7;
+  /* background-color: #d8d9c7; */
   text-align:center;
   /* font-variant-alternates: styleset(ss02); */
   /* line-height: 1rem; */
   /* margin-bottom: 5rem; */
   font-size: 4rem;
+  padding-bottom: 10rem;
 }
 
 /* .title>p:hover {
