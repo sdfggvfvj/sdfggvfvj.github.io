@@ -8,11 +8,13 @@
   font-family: 'CLOCK-theRegular'
 }
 body {
+  margin: 0;
   font-family: CLOCK-theRegular,Round,'Lato', sans-serif, helvetica;
   background-image: url(i/bg2.gif);
   background-repeat: no-repeat;
   background-position: center;
-  /* background-color: #e1e1e1; */
+  letter-spacing: 0.3rem;
+  /* background-color: #c0e7fc; */
   /* fun stroke */
   /* -webkit-text-stroke: 2em rgba(0,0,0,0.1); */
 
@@ -25,7 +27,7 @@ body {
 
 p {
   /* transform: scaleY(1.3); */
-  margin:0.2rem;
+  margin:0rem;
 }
 .internship{
   margin: 2rem;
@@ -35,10 +37,12 @@ p {
   font-size: 5vw;
 }
 .title {
+  background-color: #d8d9c7;
   text-align:center;
+  /* font-variant-alternates: styleset(ss02); */
   /* line-height: 1rem; */
   /* margin-bottom: 5rem; */
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 /* .title>p:hover {
