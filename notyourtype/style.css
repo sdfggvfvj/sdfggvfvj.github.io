@@ -27,6 +27,7 @@
 input:focus, textarea:focus, select:focus, [contenteditable] {
         outline: none;}
 body {
+  background-color: #e1e1e1;
   margin:0;
   font-family: barbecue;
   font-size: 2rem;
@@ -41,10 +42,14 @@ p {
   margin: 0;
 }
 .title {
-  color: white;
-  -webkit-text-stroke: 0.6rem green;
+  font-family: CLOCK-regular;
+  color: black;
+  /* -webkit-text-stroke: 0.6rem green; */
+  /* -webkit-text-stroke: 1rem rgba(52, 235, 107,0.6); */
   padding-bottom: 5rem;
-  font-size: 10rem;
+  font-size: 30vw;
+  letter-spacing: 1rem;
+
   /* line-height: 6rem; */
 }
 /* letter-style */
@@ -54,7 +59,10 @@ p {
   /* background-color: blue; */
 }
 .title .letter-o {
-  font-style: normal;
+  /* color: green; */
+  filter: blur(5px);
+  /* vertical-align: sub; */
+  font-style: italic;
 }
 .title .letter-t {
   font-style: normal;
@@ -84,7 +92,9 @@ font-style: normal;
   font-style: normal;
 }
 .title .letter-p {
-  font-style: normal;
+  font-style: italic;
+
+  /* font-style: normal; */
 }
 .title .letter-e {
   font-style: normal;
@@ -203,14 +213,15 @@ font-style: normal;
   /* background-color: green; */
 }
 .type_pictype {
+  color: white;
   padding-left: 2rem;
   font-family: pictype;
-  letter-spacing: 6rem;
+  letter-spacing: 10rem;
   padding-top: 2rem;
   padding-bottom:5rem;
-  background-color: #e1e1e1;
-  line-height: 6rem;
-  font-size: 8rem;
+  background-color: #000;
+  /* line-height: 6rem; */
+  font-size: 15rem;
 }
 .type_barbecue {
   -webkit-text-stroke: 0.1rem white ;
@@ -220,6 +231,7 @@ font-style: normal;
   padding-top: 2rem;
   padding-bottom:5rem;
   background-color: #ff4800;
+
   line-height: 6rem;
   font-size: 8rem;
 }
@@ -228,9 +240,11 @@ font-style: normal;
   color:white;
   background-image: url(i/clock.png);
   background-size: cover;
+  /* background-repeat: no-repeat; */
   padding-top: 2rem;
   padding-bottom:5rem;
   background-color: #7b00ff;
+  /* background-color: #e1e1e1; */
   font-family: CLOCK-regular;
   font-size: 8rem;
 }
@@ -238,10 +252,13 @@ font-style: normal;
   -webkit-text-stroke: 0.08rem black;
   background-image: url(i/clock-2.png);
   background-size: cover;
+  /* background-size: contain;
+  background-repeat: no-repeat; */
   padding-top: 2rem;
   padding-bottom:5rem;
   color: white;
   background-color: #29c259;
+  /* background-color: #e1e1e1; */
   font-family: CLOCK-notregular;
     font-size: 8rem;
 }
