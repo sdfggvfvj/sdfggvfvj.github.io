@@ -213,7 +213,7 @@ font-style: normal;
   font-size: 8rem;
 }
 .type_barbecue {
-  -webkit-text-stroke: 0.15rem white ;
+  -webkit-text-stroke: 0.1rem white ;
   color:white;
   background-image: url(i/barbecue.png);
   background-size: cover;
@@ -251,9 +251,12 @@ font-style: normal;
 footer {
   background-image: url(i/footer.png);
   background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   font-size: 4rem;
   text-align: center;
 }
 .more {
-  background-color: yellow;
+  color:red;
+  /* background-color: yellow; */
 }
