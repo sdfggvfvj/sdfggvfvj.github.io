@@ -213,6 +213,7 @@ letter-spacing: 2rem;
   font-size: 8rem;
 }
 .type_barbecue {
+  -webkit-text-stroke: 0.08rem black;
   color:white;
   background-image: url(i/barbecue.png);
   background-size: cover;
@@ -223,6 +224,8 @@ letter-spacing: 2rem;
   font-size: 8rem;
 }
 .type_clock_regular {
+  -webkit-text-stroke: 0.08rem black;
+  color:white;
   background-image: url(i/clock.png);
   background-size: cover;
   padding-top: 2rem;
@@ -232,6 +235,7 @@ letter-spacing: 2rem;
   font-size: 8rem;
 }
 .type_clock_notregular {
+  -webkit-text-stroke: 0.08rem black;
   background-image: url(i/clock-2.png);
   background-size: cover;
   padding-top: 2rem;
