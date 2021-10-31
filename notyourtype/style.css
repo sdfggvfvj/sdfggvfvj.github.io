@@ -2,58 +2,229 @@
   src: url(../font/pictype-Regular.ttf);
   font-family: 'pictype'
 }
+@font-face {
+  src: url(../font/barbecue-2nd-Regular.otf);
+  font-family: 'barbecue'
+}
 
 @font-face {
+  src: url(../font/CLOCK-theRegular-Regular.woff);
+  font-family: 'CLOCK-regular'
+}
+@font-face {
   src: url(../font/CLOCK-notRegular-Regular.otf);
-  font-family: 'CLOCK'
+  font-family: 'CLOCK-notregular'
 }
 ::-moz-selection { /* Code for Firefox */
-  color: black;
-  background: white;
+  color: white;
+  background: black;
 }
 
 ::selection {
-  color: black;
-  background: white;
-}
-body {
-  margin: 0;
-  background-color: black;
-  font-family: pictype;
   color: white;
+  background: black;
 }
-.texts {
-  font-family: pictype;
-  font-size: 15em;
-  line-height: auto;
+input:focus, textarea:focus, select:focus, [contenteditable] {
+        outline: none;}
+body {
+  margin:0;
+  font-family: barbecue;
+  font-size: 2rem;
+  line-height:6rem;
+}
+
+p {
   margin: 0;
-  text-align: center;
-  color: #FFFFFF;
-/* background: #232323; */
-text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
 }
-.CLOCK {
-  line-height: 0.8em;
-  text-align: center;
-  font-family: CLOCK;
-  font-size: 10em;
+.title {
+  padding-bottom: 5rem;
+  font-size: 10rem;
+  line-height: 6rem;
+}
+/* letter-style */
+.title .letter-n {
+  /* color: white; */
+  font-style: normal;
+  /* background-color: blue; */
+}
+.title .letter-o {
+  font-style: normal;
+}
+.title .letter-t {
+  font-style: normal;
+}
+.title .letter-y {
+  font-style: normal;
 
 }
-textarea {
-  width: 100vw;
-  background-color: black;
-  color: white;
+.title .letter-o {
+  font-style: normal;
+  letter-spacing: 2rem;
+}
+.title .letter-u {
+  /* color: white; */
+  font-style: normal;
+  /* background-color: blue; */
+}
+.title .letter-r {
+font-style: normal;
+letter-spacing: 2rem;
+}
+
+.title .letter-t {
+  font-style: normal;
+}
+.title .letter-y {
+  font-style: normal;
+}
+.title .letter-p {
+  font-style: normal;
+}
+.title .letter-e {
+  font-style: normal;
+}
+
+.title .letter-f {
+  font-style: normal;
+}
+.title .letter-o {
+  font-style: normal;
+}
+.title .letter-u {
+  font-style: normal;
+}
+.title .letter-n {
+  font-style: normal;
+}
+.title .letter-d {
+  font-style: normal;
+}
+.title .letter-r {
+  font-style: normal;
+}
+.title .letter-y {
+  font-style: normal;
+}
+/* general */
+
+.letter-a {
+  font-style: normal;
+}
+.letter-b {
+  font-style: normal;
+}
+.letter-c {
+  font-style: normal;
+}
+.letter-d {
+  font-style: normal;
+}
+
+.letter-e {
+  font-style: normal;
+}
+
+
+.letter-f {
+  font-style: normal;
+}
+.letter-g {
+  font-style: normal;
+}
+.letter-h {
+  font-style: normal;
+}
+.letter-i {
+  font-style: normal;
+}
+.letter-j {
+  font-style: normal;
+}
+.letter-k {
+  font-style: normal;
+}
+.letter-l {
+  font-style: normal;
+}
+.letter-m {
+  font-style: normal;
+}
+.letter-n {
+  font-style: normal;
+}
+.letter-o {
+  /* font-family: CLOCK; */
+  font-style: normal;
+}
+.letter-p {
+  font-style: normal;
+}
+.letter-q {
+  font-style: normal;
+}
+.letter-r {
+  font-style: normal;
+}
+.letter-s {
+  font-style: normal;
+}
+.letter-t {
+  font-style: normal;
+}
+.letter-u {
+  font-style: normal;
+}
+.letter-v {
+  font-style: normal;
+}
+.letter-w {
+  font-style: normal;
+}
+.letter-x {
+  font-style: normal;
+}
+.letter-y {
+  font-style: normal;
+}
+.letter-z {
+  font-style: normal;
+}
+/* ENDof-letter-style */
+
+.type_name {
+  font-size: 3rem;
+  float: right;
+  /* background-color: green; */
+}
+.type_pictype {
+  padding-left: 2rem;
   font-family: pictype;
-  font-size: 2em;
+  letter-spacing: 6rem;
+  padding-top: 2rem;
+  padding-bottom:5rem;
+  background-color: #e1e1e1;
+  line-height: 6rem;
+  font-size: 8rem;
 }
-textarea:focus {
-  outline: none;
+.type_barbecue {
+  padding-top: 2rem;
+  padding-bottom:5rem;
+  background-color: #ff4800;
+  line-height: 6rem;
+  font-size: 8rem;
 }
-table {
-  text-align: center;
-  line-height: 0.8em;
-  font-family: CLOCK;
-  color:white;
-  font-size: 0.3em;
-  overflow-x: scroll;
+.type_clock_regular {
+  padding-top: 2rem;
+  padding-bottom:5rem;
+  background-color: #7b00ff;
+  font-family: CLOCK-regular;
+  font-size: 8rem;
+}
+.type_clock_notregular {
+  padding-top: 2rem;
+  padding-bottom:5rem;
+  color: white;
+  background-color: #29c259;
+  font-family: CLOCK-notregular;
+    font-size: 8rem;
 }

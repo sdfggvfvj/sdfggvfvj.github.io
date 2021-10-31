@@ -89,17 +89,20 @@ a:checked {
 
 
 
-.yes {
+.letter-o {
   color: black;
   /* -webkit-text-stroke: 10px rgba(0,0,0,0.2); */
   vertical-align: super;
   font-size: 1em;
   /* text-shadow: 0px 0 6px #000000, 0px 0px 0px rgba(0,0,0,0); */
 }
+
+
 .letter-r {
   color: red;
   vertical-align: sub;
   font-size: 0.8em;
+  /* background-color: #f2059b; */
 }
 .letter-p {
   color: green;
@@ -113,6 +116,8 @@ a:checked {
   vertical-align:middle;
   font-size: 1em;
 }
+
+
 /* typefaces-page */
 .typefaces {
   background-color: yellow;
