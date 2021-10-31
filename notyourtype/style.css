@@ -18,11 +18,13 @@
 ::-moz-selection { /* Code for Firefox */
   color: white;
   background: black;
+
 }
 
 ::selection {
   color: white;
   background: black;
+
 }
 input:focus, textarea:focus, select:focus, [contenteditable] {
         outline: none;}
@@ -249,7 +251,7 @@ font-style: normal;
   font-size: 8rem;
 }
 .type_clock_notregular {
-  -webkit-text-stroke: 0.08rem black;
+  /* -webkit-text-stroke: 0.08rem black; */
   background-image: url(i/clock-2.png);
   background-size: cover;
   /* background-size: contain;
