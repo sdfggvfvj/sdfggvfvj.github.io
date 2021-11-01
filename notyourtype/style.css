@@ -45,7 +45,8 @@ p {
 }
 .title {
   font-family: CLOCK-regular;
-  color: black;
+  color: white;
+  -webkit-text-stroke: 0.02rem black;
   /* -webkit-text-stroke: 0.6rem green; */
   /* -webkit-text-stroke: 1rem rgba(52, 235, 107,0.6); */
   padding-bottom: 5rem;
@@ -94,7 +95,9 @@ font-style: normal;
   font-style: normal;
 }
 .title .letter-p {
-  font-style: italic;
+  font-style: normal;
+  /* font-size: 40vw; */
+  /* vertical-align: sub; */
 
   /* font-style: normal; */
 }
@@ -122,6 +125,7 @@ font-style: normal;
 }
 .title .letter-y {
   font-style: normal;
+  /* letter-spacing: 2rem; */
 }
 /* general */
 
@@ -218,6 +222,7 @@ font-style: normal;
   color: white;
   padding-left: 2rem;
   font-family: pictype;
+  /* text-align: center; */
   letter-spacing: 10rem;
   padding-top: 2rem;
   padding-bottom:5rem;
