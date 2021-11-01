@@ -15,6 +15,11 @@
   src: url(../font/CLOCK-notRegular-Regular.otf);
   font-family: 'CLOCK-notregular'
 }
+
+@font-face {
+  src: url(../font/26Raindrops-Regular.otf);
+  font-family: 'raindrops'
+}
 ::-moz-selection { /* Code for Firefox */
   color: white;
   background: black;
@@ -218,6 +223,24 @@ font-style: normal;
   float: right;
   /* background-color: green; */
 }
+
+.type_26raindrops {
+  text-transform: uppercase;
+  color: white;
+  padding-left: 2rem;
+  font-family: raindrops;
+  /* text-align: center; */
+  letter-spacing: 5rem;
+  padding-top: 2rem;
+  padding-bottom:5rem;
+  background-color: #2e353d;
+  /* line-height: 6rem; */
+  font-size: 8rem;
+}
+/* .type_26raindrops p{
+ text-transform: capitalize;
+} */
+
 .type_pictype {
   color: white;
   padding-left: 2rem;
