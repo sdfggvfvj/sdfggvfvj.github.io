@@ -1,0 +1,144 @@
+@font-face {
+  font-family:"barbecue_3";
+  src:url(font/Barbecue_3-Regular.otf);
+
+}
+
+@font-face {
+  font-family:"cirrus";
+  src:url(font/CirrusCumulus.woff);
+
+}
+.menu {
+  font-size: 2em;
+  position: fixed;
+  float: left;
+  max-width:5vw;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: cirrus;
+}
+nav {
+  font-size: 2rem;
+}
+.info{
+  left:95vw;
+  position: fixed;
+  width: 100vw;
+}
+.index {
+   left:2vw;
+    position: fixed;
+    width: 100vw;
+
+}
+nav a {
+  width: auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+  transition: .5s;
+  -webkit-text-stroke: 0em;
+}
+
+a:hover {
+  color: green;
+  -webkit-text-stroke: 0.15em;
+}
+a:active {
+  color: red;
+  -webkit-text-stroke: 0.2em;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "year pic_1 ."
+    "pic_2 zoom pic_3"
+    ". pic_4 .";
+
+
+}
+
+.year {
+  font-size: 2em;
+  /* background-color: red; */
+  padding: 2em;
+  text-align: center;
+  display: flex
+  justify-content: center;
+  align-items: center;
+  vertical-align:middle center;
+  object-fit: cover;;
+}
+
+.pic_1 { grid-area: pic_1;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover; }
+
+.pic_2 { grid-area: pic_2;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;}
+
+.pic_3 { grid-area: pic_3;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+align-items: center;
+object-fit: cover;}
+
+.pic_4 { grid-area: pic_4;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;}
+
+.zoom { grid-area: zoom;
+
+  display: flex;
+         justify-content: center;
+         align-items: center;
+       object-fit: cover;}
+
+
+img {
+  width: 10vw;
+  height: 10vw;
+    object-fit: cover;
+    transition: 0.8s;
+}
+.zoom img {
+  width: 20vw;
+  height: auto;
+    object-fit: cover;
+}
+.zoom img:active {
+  width: 30vw;
+  /* transform: rotate(10deg); */
+
+}
+img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  filter: saturate(1000%);
+-webkit-filter: saturate(1000%);
+-moz-filter: saturate(1000%);
+}
+img:active {
+  transform: rotate(10deg);
+}

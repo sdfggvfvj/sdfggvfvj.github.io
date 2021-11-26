@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="test.css">
+    </head>
+    <body>
+
+
+
+
+
+
+
+    <div class="container">
+<!--            <div class="year"><img src="i/cat.png"></div>-->
+            <div ><img class="myimg" src="i/img00005.jpg"></div>
+            <div ><img class="myimg" src="i/img00006.jpg"></div>
+            <div ><img class="myimg" src="i/img00007.jpg"></div>
+            <!-- <div id="texts">2021</div> -->
+        </div>
+
+        <div id='test'>
+        </div>
+        <script>
+            window.onload=function(){
+                var myimg = document.getElementsByClassName("myimg");
+
+                for(var i=0; i<myimg.length; i++){
+                    myimg[i].addEventListener("click",function(){
+
+//                   check the src on console
+                        console.log(this.src);
+//                   add one
+                      document.getElementById("test").innerHTML='<img src="'+ this.src +'">';
+//                   add a lot
+/*                        var img = document.createElement('img');
+                        img.src = this.src;
+                        document.getElementById('test').appendChild(img);*/
+                    })
+                }
+            }
+        </script>
+    </body>
+</html>
