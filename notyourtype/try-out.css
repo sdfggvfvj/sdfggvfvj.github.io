@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'barbecue';
+  src: url(font/--b-a-r-b-e-c-u-e---Condensed.otf);
+}
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: black;
+
+}
+
+::selection {
+  color: white;
+  background: black;
+
+}
+input:focus, textarea:focus, select:focus, [contenteditable] {
+        outline: none;}
+
+body {
+  font-family: barbecue;
+  font-size: 40pt;
+}
+
+._30pt {
+  /* display: flex; */
+  letter-spacing: 0.5pt;
+  column-count: 2;
+  font-size: 30pt;
+  padding: 1em;
+  color: white;
+  line-height: 25pt;
+  text-align: left;
+  background-color: blue;
+  border-radius: 0.2em;
+
+}
+._40pt {
+  padding: 0.3em;
+  color: green;
+  line-height: 20pt;
+  text-align: center;
+  background-color: yellow;
+  border-radius: 0.2em;
+
+}
+
+._100pt {
+  padding: 0.3em;
+  line-height: 50pt;
+  font-size: 100pt;
+  color: blue;
+  text-align: center;
+  background-color: #e1e1e1;
+  border-radius: 0.2em;
+
+}
+
+._150pt {
+  padding: 0.3em;
+  line-height: 70pt;
+  font-size: 150pt;
+  color: blue;
+  text-align: center;
+  background-color: red;
+  border-radius: 0.2em;
+
+}
