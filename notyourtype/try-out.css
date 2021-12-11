@@ -21,16 +21,19 @@ body {
   font-size: 40pt;
 }
 
+.title {
+  text-align: center;
+}
 ._30pt {
   /* display: flex; */
   letter-spacing: 0.5pt;
   column-count: 2;
   font-size: 30pt;
   padding: 1em;
-  color: white;
+  color: black;
   line-height: 25pt;
   text-align: left;
-  background-color: blue;
+  background-color: white;
   border-radius: 0.2em;
 
 }
@@ -59,7 +62,7 @@ body {
   padding: 0.3em;
   line-height: 70pt;
   font-size: 150pt;
-  color: blue;
+  color: black;
   text-align: center;
   background-color: red;
   border-radius: 0.2em;
