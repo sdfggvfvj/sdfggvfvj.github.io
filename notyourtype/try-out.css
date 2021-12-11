@@ -2,6 +2,19 @@
   font-family: 'barbecue';
   src: url(font/--b-a-r-b-e-c-u-e---Condensed.otf);
 }
+
+
+@media all and (orientation: portrait) {
+    ._30pt {
+      column-count: 1!important;
+
+    }
+
+
+
+
+
+}
 ::-moz-selection { /* Code for Firefox */
   color: white;
   background: black;
