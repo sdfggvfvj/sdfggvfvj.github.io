@@ -8,6 +8,11 @@
     ._30pt {
       column-count: 1!important;
 
+
+    }
+
+    .title {
+      color: red;
     }
 
 
@@ -36,6 +41,12 @@ body {
 
 .title {
   text-align: center;
+  margin: 0;
+}
+.sub_title {
+  font-size: 100pt;
+  text-align: center;
+  margin: 0;
 }
 ._30pt {
   /* display: flex; */
