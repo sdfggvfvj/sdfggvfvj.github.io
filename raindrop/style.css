@@ -8,14 +8,12 @@
 }
 ::-moz-selection { /* Code for Firefox */
   color: white;
-  background: black;
-
+  background: blue;
 }
 
 ::selection {
   color: white;
-  background: black;
-
+  background: blue;
 }
  p {
    margin: 0;
@@ -23,10 +21,12 @@
 input:focus, textarea:focus, select:focus, [contenteditable] {
         outline: none;}
 body {
+  font-family: hanken;
   margin: 0;
   background-color: lightblue;
 }
 .text {
+  opacity: 0.4;
   font-size: 2rem;
   text-align: center;
   font-family: hanken;
@@ -41,4 +41,15 @@ body {
   font-family: Raindrops;
   font-weight: 100;
   font-size: 6rem;
+}
+footer {
+  width: 100vw;
+  position: fixed;
+  text-align:center;
+  bottom:0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: white;
+  opacity: 0.4;
+  font-size: 2rem;
 }
