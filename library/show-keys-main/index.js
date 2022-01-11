@@ -65,7 +65,7 @@ const handler = (event) => {
 const css = `
   [data-keys] {
     display: flex;
-    background: #2e2e2e;
+    background: transparent;
     border-radius: 10px;
     position: fixed;
     top: 20px;
