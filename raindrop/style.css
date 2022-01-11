@@ -6,6 +6,12 @@
   font-family: "hanken";
   src: url(../font/Hanken-Book.ttf);
 }
+
+@media all and (orientation: portrait) {
+  .mild {
+    font-size: 20rem !important;
+  }
+}
 ::-moz-selection { /* Code for Firefox */
   color: white;
   background: blue;
