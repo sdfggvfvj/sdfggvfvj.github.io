@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Raindrops";
+  src: url(..font/RaindropsVF.ttf);
+}
+@font-face {
+  font-family: "hanken";
+  src: url(..font/Hanken-Book.ttf);
+}
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: black;
+
+}
+
+::selection {
+  color: white;
+  background: black;
+
+}
+ p {
+   margin: 0;
+ }
+input:focus, textarea:focus, select:focus, [contenteditable] {
+        outline: none;}
+body {
+  margin: 0;
+  background-color: lightblue;
+}
+.text {
+  font-size: 2rem;
+  text-align: center;
+  font-family: hanken;
+  background-color: black;
+  color: white;
+}
+.mild {
+  margin: 0;
+  height: 90vh;
+
+  color:white;
+  font-family: Raindrops;
+  font-weight: 100;
+  font-size: 8rem;
+}
