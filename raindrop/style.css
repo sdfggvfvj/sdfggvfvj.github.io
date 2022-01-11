@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Raindrops";
-  src: url(..font/RaindropsVF.ttf);
+  src: url(../font/RaindropsVF.ttf);
 }
 @font-face {
   font-family: "hanken";
-  src: url(..font/Hanken-Book.ttf);
+  src: url(../font/Hanken-Book.ttf);
 }
 ::-moz-selection { /* Code for Firefox */
   color: white;
