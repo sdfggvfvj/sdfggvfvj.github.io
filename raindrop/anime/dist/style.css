@@ -1,0 +1,58 @@
+/*
+	Weight axis: 100 – 700
+	Width axis: 85 – 100
+*/
+@font-face {
+	font-family: "TINY";
+	src: url("tinyfonts-master/fonts/RAINVF.ttf");
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	font-family: "TINY";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	min-height: 100vh;
+
+}
+
+h1 {
+	color:white;
+	-webkit-text-stroke: 1px blue;
+	font-weight: 100;
+	font-size: 10vw;
+	line-height: 10vw;
+	font-variation-settings: 'wght' 20, 'wdth' 300;
+}
+
+h1 .char {
+	--delay: calc((var(--char-index) + 1) * 400ms);
+	animation: breathe 1000ms infinite both;
+	animation-delay: var(--delay);
+}
+
+h1:hover span {
+	animation-play-state: paused;
+}
+
+@keyframes breathe {
+	0% {
+		font-variation-settings: 'wght' 160, 'wdth' 30;
+		font-size: 10vw;
+	}
+	60% {
+		font-variation-settings: 'wght' 700, 'wdth' 160;
+		font-size: 11vw;
+	}
+
+	100% {
+		font-variation-settings: 'wght' 100, 'wdth' 30;
+		font-size: 10vw;
+	}
+}

@@ -42,12 +42,17 @@ body {
 .mild {
   margin: 0;
   height: 90vh;
-
   color:white;
+  opacity: .8;
   font-family: Raindrops;
-  font-weight: 100;
+  font-weight: 400;
   font-size: 6rem;
 }
+
+/* .mild:hover {
+  color: transparent;
+  transition: 6s;
+} */
 footer {
   width: 100vw;
   position: fixed;
