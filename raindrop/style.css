@@ -40,9 +40,13 @@ body {
   color: white;
 }
 .mild {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   margin: 0;
   height: 90vh;
   color:rgba(255, 255, 255, 0.6);
+  /* text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.03); */
   opacity: .8;
   font-family: Raindrops;
   font-weight: 400;
