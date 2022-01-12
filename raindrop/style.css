@@ -41,8 +41,6 @@ body {
 }
 .mild {
   text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
   margin: 0;
   height: 90vh;
   color:rgba(255, 255, 255, 0.6);
