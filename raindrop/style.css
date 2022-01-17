@@ -40,6 +40,7 @@ body {
   color: white;
 }
 .mild {
+  /* line-height: 14rem; */
   text-overflow: ellipsis;
   margin: 0;
   height: 90vh;

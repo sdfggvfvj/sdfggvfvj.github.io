@@ -1,0 +1,44 @@
+@font-face {
+  src: url(font/Kiddo-Regular.otf);
+  font-family: 'Kiddo';
+}
+
+body {
+  font-family: Kiddo;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  font-size: 2rem;
+  color: green;
+}
+.content {
+  margin-top: 10rem;
+  font-size: 6rem;
+}
+img {
+  width: 10vw;
+}
+img:hover {
+  transition: 1s;
+  width: 20vw;
+}
+footer {
+  font-size: 1rem;
+  position: fixed;
+  bottom: 0;
+}
+.try {
+  color: red;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  transition: 1s;
+  font-size: 3rem;
+}
+p {
+  font-size: 2rem;
+}
