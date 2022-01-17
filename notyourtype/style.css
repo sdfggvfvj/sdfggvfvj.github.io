@@ -27,7 +27,7 @@ nav {
   right: 0;
 }
 .content {
-  margin-top: 10rem;
+  margin-top: 5rem;
   font-size: 6rem;
 }
 img {
@@ -62,4 +62,7 @@ a:default {
 }
 p {
   font-size: 2rem;
+}
+.info_page {
+  padding-top: 10rem;
 }
