@@ -1,12 +1,25 @@
+@font-face {
+  src: url(font/CLOCK-thenotRegular-Regular.otf);
+  font-family: 'CLOCK-notRegular';
 
+}
+
+@font-face {
+  src: url(font/BARBECUE_1219_vf-Condensed.otf);
+  font-family: 'BARBECUE_thin';
+
+}
 @font-face {
   src: url(font/Kiddo-Regular.otf);
   font-family: 'Kiddo';
 }
 
 body {
+text-transform: uppercase;
+  text-align: center;
       margin: 0;
-  font-family: Kiddo;
+  /* font-family: Kiddo; */
+    font-family:CLOCK-notRegular;
 }
 
 .typefaces-list {
