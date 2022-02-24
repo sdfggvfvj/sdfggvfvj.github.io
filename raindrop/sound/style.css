@@ -1,0 +1,65 @@
+@font-face {
+  src: url(rain_220221-Regular.otf);
+  font-family: rain;
+}
+*{
+    /* margin-top:50px; */
+    font-family: rain;
+}
+body{
+  /* background-color: black; */
+    background-image: url(bg_3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 4rem;
+    word-wrap: break-word;
+    color: white;
+    /* text-shadow: 0 80px 80px #FFF, 0 0 10px #FFF, 80px 80px 80px rgba(206,89,55,0); */
+/* text-shadow: 4px 4px 4px rgba(150, 150, 150, 1); */
+/* text-shadow: 2px 6px 9px #FFFFFF, 2px 6px 9px #FFFFFF, 2px 6px 9px #FFFFFF; */
+/* text-shadow: 1px -7px 4px #FFFFFF, 2px -7px 4px #FFFFFF, 2px -7px 9px #FFFFFF,2px -7px 9px #FFFFFF,2px -7px 9px #FFFFFF,2px -7px 9px #FFFFFF,2px -7px 9px #FFFFFF,2px -7px 15px #FFFFFF; */
+text-shadow: 1px 0px 4px #FFFFFF, 2px 0px 4px #FFFFFF, 2px 0px 9px #FFFFFF,2px 0px 9px #FFFFFF,2px -7px 9px #ffffff,2px -7px 9px #FFFFFF,2px -7px 9px #FFFFFF,2px 0px 15px #000;
+
+-webkit-text-stroke: 1px transparent;
+/* letter-spacing: -2rem; */
+}
+
+img{
+    width: 100%;
+    margin-top: -150px:
+}
+video{
+    width: 100%;
+    margin-top: -150px:
+}
+
+#infos{
+    position: absolute;
+    right: 0px;
+    top: -50px;
+    font-size: 1em;
+    width: 25%;
+    height: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    border-left: solid black 1px;
+    overflow: scroll;
+    background-color: white;
+}
+
+#txt{
+  letter-spacing: 1rem;
+  /* letter-spacing: -0.3rem; */
+   opacity: 0.3;
+    position: absolute;
+    top: 0px;
+    /* font-size: 1.5em; */
+    width: 100%;
+    text-transform: uppercase;
+    /* opacity: 0.8; */
+    /*background-color: red;*/
+}
+.letter-o {
+  color: yellow;
+}
