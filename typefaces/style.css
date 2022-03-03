@@ -58,6 +58,24 @@
   font-size: 4rem;
 }
 
+
+button {
+  background-color: grey;
+  border: none;
+  border-radius: 1rem;
+  font-size: 3rem !important;
+  font-family: barbecue;
+  transition: .5s;
+}
+button:active {
+  color: white !important;
+  background-color: red !important;
+}
+button:focus {
+  background-color: red !important;
+  color: white !important;
+}
+
 }
 /** FF*/
 input[type="range"]::-moz-range-progress {
