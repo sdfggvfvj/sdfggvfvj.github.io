@@ -133,6 +133,10 @@ button:active {
   color: white;
   background-color: red;
 }
+button:focus {
+  background-color: red;
+  color: white;
+}
 .sliders {
   text-align: center;
 }
