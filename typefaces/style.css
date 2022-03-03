@@ -58,16 +58,16 @@ input:focus, textarea:focus, select:focus, [contenteditable] {
 
 
 @font-face {
-  src: url(fonts/BARBECUE_0106-Condensed.otf);
+  src: url(fonts/BARBECUE_0106-Condensed.woff2);
   font-family: 'barbecue';
 }
 @font-face {
-  src: url(fonts/CLOCK_220224-Regular.otf);
+  src: url(fonts/CLOCK_220224-Regular.woff2);
   font-family: 'CLOCK-Regular';
 }
 
 @font-face {
-  src: url(fonts/CLOCK-Weird.otf);
+  src: url(fonts/CLOCK.woff2);
   font-family: 'CLOCK-Weird';
 }
 
@@ -79,4 +79,8 @@ body {
   margin-top: 10rem;
   text-align: center;
 
+}
+footer {
+  bottom: 0;
+  position: fixed;
 }
