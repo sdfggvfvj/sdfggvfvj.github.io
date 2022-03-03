@@ -84,3 +84,21 @@ footer {
   bottom: 0;
   position: fixed;
 }
+.buttons {
+  text-align: center;
+  background-color: white;
+}
+button {
+
+  border: none;
+  border-radius: 1rem;
+  font-size: 2rem;
+  font-family: barbecue;
+}
+button:active {
+  color: white;
+  background-color: red;
+}
+.sliders {
+  text-align: center;
+}

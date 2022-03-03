@@ -5,16 +5,23 @@
 <link rel="stylesheet" href="style.css">
     </head>
     <body>
-      Size | <span id="sizeOutput"> 10pt</span>
-        <input type="range" min="10" max="150" step="0" oninput="sizeVal(this.value)" onchange="sizeVal(this.value)">
-      Letter Spacing |   <span id="spaceOutput">0pt</span>
-        <input type="range" min="-10" max="100" step="0" oninput="spaceVal(this.value)" onchange="spaceVal(this.value)">
-        Line Height |   <span id="heightOutput">10pt</span>
-        <input type="range" min="10" max="80" step="0" oninput="heightVal(this.value)" onchange="heightVal(this.value)">
+
+      <div class="sliders">
+        Size | <span id="sizeOutput"> 10pt</span>
+          <input type="range" min="10" max="150" step="0" oninput="sizeVal(this.value)" onchange="sizeVal(this.value)">
+        Letter Spacing |   <span id="spaceOutput">0pt</span>
+          <input type="range" min="-10" max="100" step="0" oninput="spaceVal(this.value)" onchange="spaceVal(this.value)">
+          Line Height |   <span id="heightOutput">10pt</span>
+          <input type="range" min="10" max="80" step="0" oninput="heightVal(this.value)" onchange="heightVal(this.value)">
+
+      </div>
+      <div class="buttons">
         <button onclick="font1()">barbecue</button>
-        <button onclick="font2()">CLOCK-Regular</button>
-        <button onclick="font3()">CLOCK-Weird</button>
-        <button onclick="font4()">ALLCAP</button>
+          <button onclick="font2()">CLOCK-Regular</button>
+          <button onclick="font3()">CLOCK-Weird</button>
+          <button id='caps'onclick="font4()">lowercase</button>
+
+      </div>
 
         <div id="blabla" contenteditable="true">
             blablabla bla blabal balabla...!!!  !
@@ -50,8 +57,10 @@
             function font4() {
                             if(blabla.style.textTransform == "uppercase"){
                                 blabla.style.textTransform = "none";
+                                caps.innerHTML = "lowercase";
                             }else{
                                 blabla.style.textTransform = "uppercase";
+                                caps.innerHTML = "ALLCAPS";
                             }
                         }
         </script>
