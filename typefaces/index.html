@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      Size | <span id="sizeOutput"> 10pt</span>
+        <input type="range" min="10" max="150" step="0" oninput="sizeVal(this.value)" onchange="sizeVal(this.value)">
+      Letter Spacing |   <span id="spaceOutput">0pt</span>
+        <input type="range" min="-10" max="100" step="0" oninput="spaceVal(this.value)" onchange="spaceVal(this.value)">
+        Line Height |   <span id="heightOutput">10pt</span>
+        <input type="range" min="10" max="80" step="0" oninput="heightVal(this.value)" onchange="heightVal(this.value)">
+        <button onclick="font1()">barbecue</button>
+        <button onclick="font2()">CLOCK-Regular</button>
+        <button onclick="font3()">CLOCK-Weird</button>
+        <button onclick="font4()">ALLCAP</button>
+
+        <div id="blabla" contenteditable="true">
+            blablabla bla blabal balabla...!!!  !
+
+          BLAHBLAHBLAHBLAHBLAHBLAHBLAHBLAHBLAHBLAH</div>
+
+        <script>
+            var blabla = document.getElementById("blabla");
+
+            function sizeVal(newSize){
+                blabla.style.fontSize = newSize + "pt";
+                document.getElementById('sizeOutput').innerHTML = newSize +'pt';
+            }
+            function spaceVal(newSpace){
+                blabla.style.letterSpacing = newSpace + "pt";
+                document.getElementById('spaceOutput').innerHTML = newSpace +'pt';
+            }
+            function heightVal(newHeight){
+                blabla.style.lineHeight = newHeight + "pt";
+                document.getElementById('heightOutput').innerHTML = newHeight +'pt';
+            }
+
+
+            function font1() {
+                blabla.style.fontFamily = "barbecue";
+            }
+            function font2() {
+                blabla.style.fontFamily = "CLOCK-Regular";
+            }
+            function font3() {
+                blabla.style.fontFamily = "CLOCK-Weird";
+            }
+            function font4() {
+                            if(blabla.style.textTransform == "uppercase"){
+                                blabla.style.textTransform = "none";
+                            }else{
+                                blabla.style.textTransform = "uppercase";
+                            }
+                        }
+        </script>
+    </body>
+</html>
