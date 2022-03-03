@@ -58,7 +58,6 @@
   font-size: 4rem;
 }
 
-
 }
 /** FF*/
 input[type="range"]::-moz-range-progress {
@@ -120,7 +119,7 @@ body {
 
 .buttons {
   text-align: center;
-  background-color: white;
+  background-color: transparent;
 }
 button {
 
@@ -128,6 +127,7 @@ button {
   border-radius: 1rem;
   font-size: 2rem;
   font-family: barbecue;
+  transition: .5s;
 }
 button:active {
   color: white;
