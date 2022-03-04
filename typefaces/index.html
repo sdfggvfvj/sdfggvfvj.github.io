@@ -1,86 +1,96 @@
 <!DOCTYPE html>
 <html>
 <title>notyourtypeFoundry - typefaces tryout</title>
-    <head>
-<link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-      <div class="sliders">
-        Size | <span id="sizeOutput"> 45pt</span>
-          <input type="range" min="10" max="150" step="0" oninput="sizeVal(this.value)" onchange="sizeVal(this.value)">
-        Letter Spacing |   <span id="spaceOutput">normal</span>
-          <input type="range" min="-10" max="100" step="0" oninput="spaceVal(this.value)" onchange="spaceVal(this.value)">
-          Line Height |   <span id="heightOutput">35pt</span>
-          <input type="range" min="0" max="200" step="0" oninput="heightVal(this.value)" onchange="heightVal(this.value)">
+  <div class="sliders">
+    Size | <span id="sizeOutput"> 45pt</span>
+    <input type="range" min="10" max="150" step="0" oninput="sizeVal(this.value)" onchange="sizeVal(this.value)">
+    Letter Spacing |   <span id="spaceOutput">normal</span>
+    <input type="range" min="-10" max="100" step="0" oninput="spaceVal(this.value)" onchange="spaceVal(this.value)">
+    Line Height |   <span id="heightOutput">35pt</span>
+    <input type="range" min="0" max="200" step="0" oninput="heightVal(this.value)" onchange="heightVal(this.value)">
 
-      </div>
-      <div class="buttons">
-        <button onclick="font1()">Barbecue</button>
-          <button onclick="font2()">CLOCK-Regular</button>
-          <button onclick="font3()">CLOCK-Weird</button>
-          <button id='caps'onclick="font4()">lowercase</button>
-          <button onclick="this.focus()">testbutton</button>
+  </div>
+  <div class="buttons">
+    <button id="btn1" onclick="font1()">Barbecue</button>
+    <button id="btn2" onclick="font2()">CLOCK-Regular</button>
+    <button id="btn3" onclick="font3()">CLOCK-Weird</button>
+    <button id="caps" onclick="font4()">lowercase</button>
+    <button onclick="this.focus()">testbutton</button>
 
-      </div>
+  </div>
 
-        <div id="blabla" contenteditable="true">
-          <span class='change'>!-type to change sample texts-!</span><br>
-          FLEABAG (CONT'D)<br>
-          To love!<br>
-          EVERYONE<br>
-          To love!<br>
-          Suddenly MARTIN arrives.<br>
-          MARTIN<br>
-          HEEEEEY!<br>
-          FLEABAG<br>
-          (to camera)<br>
-          Ugh.<br>
-          MARTIN<br>
-          (to Dad and God Mother)<br>
-          CONGRATULATIONS YOU ASSHOLES!<br>
-          1234567890
-</div>
+  <div id="blabla" contenteditable="true">
+    <span class='change'>!-type to change sample texts-!</span><br>
+    FLEABAG (CONT'D)<br>
+    To love!<br>
+    EVERYONE<br>
+    To love!<br>
+    Suddenly MARTIN arrives.<br>
+    MARTIN<br>
+    HEEEEEY!<br>
+    FLEABAG<br>
+    (to camera)<br>
+    Ugh.<br>
+    MARTIN<br>
+    (to Dad and God Mother)<br>
+    CONGRATULATIONS YOU ASSHOLES!<br>
+    1234567890
+  </div>
 
-        <script>
-            var blabla = document.getElementById("blabla");
-
-            function sizeVal(newSize){
-                blabla.style.fontSize = newSize + "pt";
-                document.getElementById('sizeOutput').innerHTML = newSize +'pt';
-            }
-            function spaceVal(newSpace){
-                blabla.style.letterSpacing = newSpace + "pt";
-                document.getElementById('spaceOutput').innerHTML = newSpace +'pt';
-            }
-            function heightVal(newHeight){
-                blabla.style.lineHeight = newHeight + "pt";
-                document.getElementById('heightOutput').innerHTML = newHeight +'pt';
-            }
+  <script>
+  var blabla = document.getElementById("blabla");
+  var btn1 = document.getElementById("btn1");
+  var btn2 = document.getElementById("btn2");
+  var btn3 = document.getElementById("btn3");
+  var caps = document.getElementById("caps");
 
 
-            function font1() {
-                blabla.style.fontFamily = "barbecue";
-            }
-            function font2() {
-                blabla.style.fontFamily = "CLOCK-Regular";
-            }
-            function font3() {
-                blabla.style.fontFamily = "CLOCK-Weird";
-            }
-            function font4() {
-                            if(blabla.style.textTransform == "uppercase"){
-                                blabla.style.textTransform = "none";
-                                caps.innerHTML = "lowercase";
-                            }else{
-                                blabla.style.textTransform = "uppercase";
-                                caps.innerHTML = "ALLCAPS";
-                            }
-                        }
-        </script>
 
-        <footer> coding support by <a href="https://mariemadonna.com">Marie Madonna</a> ^_^ | <a href = "mailto: x.gao.work@gmail.com"> Contact x.gao.work@gmail.com For Licenses</a>
-   | See More At <a href="https://instagram.com/notyourtypefoundry"> notyourtypeFoundry</a>
-        </footer>
-    </body>
+  function sizeVal(newSize){
+    blabla.style.fontSize = newSize + "pt";
+    document.getElementById('sizeOutput').innerHTML = newSize +'pt';
+  }
+  function spaceVal(newSpace){
+    blabla.style.letterSpacing = newSpace + "pt";
+    document.getElementById('spaceOutput').innerHTML = newSpace +'pt';
+  }
+  function heightVal(newHeight){
+    blabla.style.lineHeight = newHeight + "pt";
+    document.getElementById('heightOutput').innerHTML = newHeight +'pt';
+  }
+
+
+  function font1() {
+    btn1.focus();
+    blabla.style.fontFamily = "barbecue";
+  }
+  function font2() {
+    btn2.focus();
+    blabla.style.fontFamily = "CLOCK-Regular";
+  }
+  function font3() {
+    btn3.focus();
+    blabla.style.fontFamily = "CLOCK-Weird";
+  }
+  function font4() {
+    caps.focus();
+    if(blabla.style.textTransform == "uppercase"){
+      blabla.style.textTransform = "none";
+      caps.innerHTML = "lowercase";
+    }else{
+      blabla.style.textTransform = "uppercase";
+      caps.innerHTML = "ALLCAPS";
+    }
+  }
+  </script>
+
+  <footer> coding support by <a href="https://mariemadonna.com">Marie Madonna</a> ^_^ | <a href = "mailto: x.gao.work@gmail.com"> Contact x.gao.work@gmail.com For Licenses</a>
+    | See More At <a href="https://instagram.com/notyourtypefoundry"> notyourtypeFoundry</a>
+  </footer>
+</body>
 </html>
