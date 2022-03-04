@@ -9,7 +9,7 @@
       <div class="sliders">
         Size | <span id="sizeOutput"> 45pt</span>
           <input type="range" min="10" max="150" step="0" oninput="sizeVal(this.value)" onchange="sizeVal(this.value)">
-        Letter Spacing |   <span id="spaceOutput">0pt</span>
+        Letter Spacing |   <span id="spaceOutput">normal</span>
           <input type="range" min="-10" max="100" step="0" oninput="spaceVal(this.value)" onchange="spaceVal(this.value)">
           Line Height |   <span id="heightOutput">35pt</span>
           <input type="range" min="0" max="200" step="0" oninput="heightVal(this.value)" onchange="heightVal(this.value)">
@@ -20,10 +20,12 @@
           <button onclick="font2()">CLOCK-Regular</button>
           <button onclick="font3()">CLOCK-Weird</button>
           <button id='caps'onclick="font4()">lowercase</button>
+          <button onclick="this.focus()">testbutton</button>
 
       </div>
 
         <div id="blabla" contenteditable="true">
+          <span class='change'>!-type to change sample texts-!</span><br>
           FLEABAG (CONT'D)<br>
           To love!<br>
           EVERYONE<br>
@@ -36,7 +38,8 @@
           Ugh.<br>
           MARTIN<br>
           (to Dad and God Mother)<br>
-          CONGRATULATIONS YOU ASSHOLES!<br> 
+          CONGRATULATIONS YOU ASSHOLES!<br>
+          1234567890
 </div>
 
         <script>

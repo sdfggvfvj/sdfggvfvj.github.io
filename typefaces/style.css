@@ -66,6 +66,7 @@ button {
   font-size: 3rem !important;
   font-family: barbecue;
   transition: .5s;
+  margin-bottom: 1rem;
 }
 button:active {
   color: white !important;
