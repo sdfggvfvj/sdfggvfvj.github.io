@@ -87,3 +87,7 @@ button {
   text-shadow: 1px 0px 4px #FFFFFF, 2px 0px 4px #FFFFFF, 2px 0px 9px #FFFFFF,2px 0px 9px #FFFFFF,2px -7px 9px #ffffff,2px -7px 9px #FFFFFF,2px -7px 9px #FFFFFF,2px 0px 15px #000;
 
 }
+.hint {
+  text-align: center;
+  font-size: .8rem;
+}
