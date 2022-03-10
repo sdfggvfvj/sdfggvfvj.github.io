@@ -15,16 +15,13 @@
     </head>
 
     <body>
-      <div class="sliders">
-        Heaviness | <span id="sizeOutput"> </span>
-        <input type="range" min="10" max="150" step="0" oninput="sizeVal(this.value)" onchange="sizeVal(this.value)">
-        H-Density |   <span id="spaceOutput"> </span>
-        <input type="range" min="-10" max="100" step="0" oninput="spaceVal(this.value)" onchange="spaceVal(this.value)">
-        V-Density |   <span id="heightOutput"> </span>
-        <input type="range" min="0" max="200" step="0" oninput="heightVal(this.value)" onchange="heightVal(this.value)">
-
+<!-- buttons -->
+      <div class="buttons">
+        <button id="btn1" onclick="font1()">Mild</button>
+        <button id="btn2" onclick="font2()">Medium</button>
+        <button id="btn3" onclick="font3()">Heavy</button>
       </div>
-
+      <!-- buttons end -->
         <div data-splitting id="txt"></div>
         <audio id="audio" src="audio/A.mp3"></audio>
         <audio id="audio1" src="audio/B.mp3"></audio>
@@ -56,18 +53,21 @@
 
 <script>
 var typing = document.getElementById("txt");
+var btn1 = document.getElementById("btn1");
+var btn2 = document.getElementById("btn2");
+var btn3 = document.getElementById("btn3");
 
-function sizeVal(newSize){
-  typing.style.fontSize = newSize + "pt";
-  document.getElementById('sizeOutput').innerHTML = newSize;
+function font1() {
+  btn1.focus();
+  typing.style.fontFamily = "Rain-Mild";
 }
-function spaceVal(newSpace){
-  typing.style.letterSpacing = newSpace + "pt";
-  document.getElementById('spaceOutput').innerHTML = newSpace;
+function font2() {
+  btn2.focus();
+  typing.style.fontFamily = "Rain-Medium";
 }
-function heightVal(newHeight){
-  typing.style.lineHeight = newHeight + "pt";
-  document.getElementById('heightOutput').innerHTML = newHeight;
+function font3() {
+  btn3.focus();
+  typing.style.fontFamily = "Rain-Heavy";
 }
 </script>
 

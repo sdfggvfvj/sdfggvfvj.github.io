@@ -1,10 +1,21 @@
 @font-face {
-  src: url(Rain-Mild.otf);
-  font-family: rain;
+  src: url(fonts/Rain-Heavy.otf);
+  font-family: 'Rain-Heavy';
 }
+
+@font-face {
+  src: url(fonts/Rain-Medium.otf);
+  font-family: 'Rain-Medium';
+}
+
+@font-face {
+  src: url(fonts/Rain-Mild.otf);
+  font-family: 'Rain-Mild';
+}
+
 *{
     /* margin-top:50px; */
-    font-family: helvetica;
+    font-family: Helvetica;
 }
 body{
   /* background-color: black; */
@@ -48,8 +59,8 @@ video{
 }
 
 #txt{
-  font-family:rain;
-  /* letter-spacing: -1rem; */
+font-family: Rain-Mild;
+  letter-spacing: 1rem;
   /* letter-spacing: -0.3rem; */
    opacity: 0.3;
     position: absolute;
@@ -63,56 +74,16 @@ video{
 .letter-o {
   color: yellow;
 }
-.sliders {
-  z-index: 99999;
-  font-size: 1rem;
-  font-family: helvetica;
-  margin-bottom: 4rem;
-}
-/* sliders */
 
-input[type='range'] {
-  overflow: hidden;
-  width: 20vw !important;
-  -webkit-appearance: none;
-  background-color: grey;
+.buttons {
+  text-align: center;
 }
+button {
+  background-color: transparent;
+  border: transparent;
+  cursor: grab;
+  color:white;
+  font-size: 1.3rem;
+  text-shadow: 1px 0px 4px #FFFFFF, 2px 0px 4px #FFFFFF, 2px 0px 9px #FFFFFF,2px 0px 9px #FFFFFF,2px -7px 9px #ffffff,2px -7px 9px #FFFFFF,2px -7px 9px #FFFFFF,2px 0px 15px #000;
 
-input[type='range']::-webkit-slider-runnable-track {
-  height: 0.7vh !important;
-  -webkit-appearance: none;
-  color: #13bba4;
-  margin-top: -1px;
-}
-
-input[type='range']::-webkit-slider-thumb {
-  width: 1vh !important;
-  -webkit-appearance: none;
-  height: 5vh !important;
-  cursor: ew-resize;
-  background: white;
-  box-shadow: -80px 0 0 80px transparent !important;
-}
-
-input[type='range']::-webkit-slider-thumb:hover {
-  width: 5vh !important;
-  -webkit-appearance: none;
-  height: 5vh !important;
-  cursor: ew-resize;
-  background: white;
-  box-shadow: -80px 0 0 80px transparent !important;
-}
-
-input[type="range"]::-moz-range-progress {
-  background-color: #43e5f7;
-}
-input[type="range"]::-moz-range-track {
-  background-color: #9a905d;
-}
-/* IE*/
-input[type="range"]::-ms-fill-lower {
-  background-color: #43e5f7;
-}
-input[type="range"]::-ms-fill-upper {
-  background-color: #9a905d;
 }

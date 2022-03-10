@@ -1,0 +1,44 @@
+@font-face {
+  src: url(../fonts/Barbecue220309-Light.otf);
+  font-family: 'Barbecue-Light';
+}
+
+@font-face {
+  src: url(../fonts/BARBECUE_0106-Condensed.woff2);
+  font-family: 'Barbecue-Condensed';
+}
+
+
+body {
+  font-family: Barbecue-Condensed;
+  margin: 0;
+  color:black;
+  /* background-image: url(i/bg.jpeg);
+  background-size: cover; */
+}
+.jumping {
+  font-size: 10rem;
+  text-align: center;
+  text-transform: capitalize;
+  animation: uppp 1s infinite linear;
+}
+@keyframes uppp{
+  from{text-transform: capitalize;}
+  to{text-transform:none;}
+}
+.txt {
+  font-family: Barbecue-Light;
+  /* color: white; */
+  font-size: 4rem;
+  text-align: center;
+  text-transform: capitalize;
+  /* animation: uppp 1s infinite linear; */
+}
+a {
+  /* color: white; */
+  text-decoration: none;
+}
+.greeting {
+  /* color: red; */
+  background-color: green;
+}
