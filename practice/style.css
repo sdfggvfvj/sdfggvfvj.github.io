@@ -1,0 +1,14 @@
+#letter-a {
+  color: red;
+  font-size: 1rem;
+
+  /* animation: zoom 1s infinite linear; */
+}
+/* @keyframes zoom {
+  from{
+  font-size: 0rem;
+  text-align: center;}
+
+  to{
+  font-size: 10rem;
+  text-align: right;} */

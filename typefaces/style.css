@@ -124,9 +124,13 @@ input:focus, textarea:focus, select:focus, [contenteditable] {
   src: url(fonts/CLOCK.woff2);
   font-family: 'CLOCK-Weird';
 }
-
+@font-face {
+  src: url(fonts/CLOCK_0328-notRegular.woff2);
+  font-family: 'CLOCK';
+}
 body {
-  font-family: barbecue;
+  font-family: CLOCK;
+  font-feature-settings: 'ss02'
 
 }
 #blabla {
