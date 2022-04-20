@@ -1,0 +1,73 @@
+@font-face {
+  src: url(font/CirrusCumulus.woff);
+  font-family: 'cirrus';
+}
+
+@font-face {
+  src:url(font/CLOCK_0401-notRegular.otf);
+  font-family: 'CLOCK_notRegualr';
+}
+body {
+  margin: 0;
+  font-size: 10rem;
+  font-family: cirrus;
+    cursor: grab;
+    color: white;
+}
+.test {
+    /* color: blue; */
+  animation: mymove 1s infinite;
+  animation-delay: 0.5s;
+  animation-direction:alternate-reverse;
+
+}
+@keyframes mymove {
+  from {
+  font-size: 2rem;
+  -webkit-text-stroke: 0rem lightblue;
+
+
+/* color: yellow; */
+}
+  to {
+    font-size: 20rem;
+   -webkit-text-stroke: 2rem yellow;
+
+    /* color: green; */
+  }
+
+}
+.test0 {
+  animation: mymove 1s infinite;
+  animation-delay: 0.2s;
+  animation-direction:alternate-reverse;
+}
+.test2 {
+  animation: mymove 1s infinite;
+  animation-delay: 1s;
+}
+
+.test3 {
+  animation: mymove 1s infinite;
+  animation-delay: 0.8s;
+
+}
+.anime {
+  background-color: grey;
+  text-align: center;
+}
+
+.number_1 {
+  animation: mymove 1s infinite;
+  animation-delay: 2s;
+  animation-direction: alternate-reverse;
+}
+.number_2 {
+  animation: mymove 1s infinite;
+  animation-delay: 2.5s;
+}
+
+.number_3 {
+  animation: mymove 1s infinite;
+  animation-delay: 3s;
+}

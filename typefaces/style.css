@@ -125,8 +125,13 @@ input:focus, textarea:focus, select:focus, [contenteditable] {
   font-family: 'CLOCK-Weird';
 }
 @font-face {
-  src: url(fonts/CLOCK_0328-notRegular.woff2);
+  src: url(fonts/CLOCK_0417-notRegular.woff2);
   font-family: 'CLOCK';
+
+}
+@font-face {
+  src: url(fonts/shiny-Regular.woff2);
+  font-family: 'shiny';
 
 }
 body {

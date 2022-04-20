@@ -17,8 +17,9 @@
   </div>
   <div class="buttons">
     <button id="btn1" onclick="font1()">Barbecue</button>
-    <button id="btn2" onclick="font2()">CLOCK-Regular</button>
+    <button id="btn2" onclick="font2()">CLOCK-notRegular</button>
     <button id="btn3" onclick="font3()">CLOCK-Weird</button>
+    <button id="btn5" onclick="font5()">shiny</button>
     <button id="caps" onclick="font4()">lowercase</button>
     <!-- <button onclick="this.focus()">testbutton</button> -->
 
@@ -47,6 +48,7 @@
   var btn1 = document.getElementById("btn1");
   var btn2 = document.getElementById("btn2");
   var btn3 = document.getElementById("btn3");
+  var btn3 = document.getElementById("btn5");
   var caps = document.getElementById("caps");
 
 
@@ -86,6 +88,12 @@
       blabla.style.textTransform = "uppercase";
       caps.innerHTML = "ALLCAPS";
     }
+  }
+
+  function font5() {
+    btn3.focus();
+    blabla.style.fontFamily = "shiny";
+    blabla.style.fontSize = "10rem";
   }
   </script>
 
