@@ -184,3 +184,24 @@ a {
   color: green;
   text-decoration: none;
 }
+nav {
+  position: absolute;
+  margin: 1rem;
+  font-size: 5rem;
+}
+.info {
+  /* -webkit-text-stroke: 1.5rem; */
+   -webkit-text-fill-color: red;
+  font-family: CLOCK;
+  margin: 1rem;
+  font-size: 4rem;
+  text-align: center;
+}
+.bottom_img {
+  z-index: -99999;
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  float: left;
+  margin-left: 20%;
+}
