@@ -24,6 +24,7 @@
     <button id="btn3" onclick="font3()">CLOCK-Weird</button>
     <button id="btn5" onclick="font5()">shiny</button>
     <button id="caps" onclick="font4()">lowercase</button>
+    <button id="outline_btn" onclick="outline()">outline</button>
     <!-- <button onclick="this.focus()">testbutton</button> -->
 
   </div>
@@ -53,6 +54,7 @@
   var btn3 = document.getElementById("btn3");
   var btn5 = document.getElementById("btn5");
   var caps = document.getElementById("caps");
+  var outline_btn = document.getElementById("outline_btn");
 
 
 
@@ -77,6 +79,7 @@
     blabla.style.color = "black";
     blabla.style.fontSize = "45pt";
     blabla.style.textTransform = "capitalize"
+    blabla.style.textShadow = "none";
   }
   function font2() {
     btn2.focus();
@@ -84,6 +87,7 @@
     blabla.style.backgroundColor = "white";
     blabla.style.color = "black";
     blabla.style.fontSize = "45pt";
+    blabla.style.textShadow = "none";
   }
   function font3() {
     btn3.focus();
@@ -92,6 +96,7 @@
     blabla.style.color = "white";
     blabla.style.fontSize = "45pt";
     blabla.style.textTransform = "capitalize"
+    blabla.style.textShadow = "none";
   }
   function font4() {
     caps.focus();
@@ -111,6 +116,14 @@
     blabla.style.backgroundColor = "black";
     blabla.style.color = "white";
     blabla.style.textTransform = "uppercase";
+    blabla.style.textShadow = "none";
+  }
+
+  function outline() {
+    outline_btn.focus();
+    blabla.style.textShadow = "rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px";
+    blabla.style.color = "white";
+    blabla.style.backgroundColor = "white";
   }
   </script>
 

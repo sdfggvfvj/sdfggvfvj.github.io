@@ -166,6 +166,10 @@ button:focus {
   background-color: red;
   color: white;
 }
+#caps:focus, #outline_btn:focus {
+  background-color: purple !important;
+  color: white;
+}
 .sliders {
   text-align: center;
 }
