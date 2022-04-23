@@ -139,6 +139,7 @@ body {
   /* background-color: black; */
 }
 #blabla {
+  padding: 1rem;
   font-size: 45pt;
   margin-top: 4rem;
   text-align: center;
@@ -146,7 +147,9 @@ body {
   font-feature-settings: 'ss02';
 
 }
-
+/* [contentEditable=true]:empty:not(:focus):before{
+    content:attr(data-text)
+} */
 .buttons {
   text-align: center;
   background-color: transparent;
