@@ -112,7 +112,7 @@ input:focus, textarea:focus, select:focus, [contenteditable] {
 
 
 @font-face {
-  src: url(fonts/BARBECUE_0106-Condensed.woff2);
+  src: url(fonts/bbq_0514-Regular.woff2);
   font-family: 'barbecue';
 }
 @font-face {
