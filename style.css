@@ -7,6 +7,11 @@
   src: url(font/CLOCK-theRegular-Regular.woff);
   font-family: 'CLOCK-theRegular'
 }
+
+@font-face {
+  src: url(font/barbecue_0526-Regular.woff);
+  font-family: 'barbecue'
+}
 body {
   margin: 0;
   font-family: CLOCK-theRegular,Round,'Lato', sans-serif, helvetica;
