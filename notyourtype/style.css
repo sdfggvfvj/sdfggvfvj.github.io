@@ -10,10 +10,11 @@
 
 body {
   color:  #03fc1c;
-  background-image: url(i/b3b.jpeg);
+  /* background-image: url(i/b3b.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,7 +56,7 @@ body {
 
 /* my own */
 nav {
-  color: yellow;
+  color: black;
   text-align: center;
   font-size: 6em;
 }

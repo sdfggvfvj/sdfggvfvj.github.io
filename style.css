@@ -163,14 +163,3 @@ width: 80vw;
 #preveiws-image {
   background-color: green;
 }
-
-span {
-
-  color: transparent;
-  -webkit-text-stroke: 0.2rem transparent;
-  /* bg-for-letters */
-  background-image: url(i/bg-o.jpeg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-}
