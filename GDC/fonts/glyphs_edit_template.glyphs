@@ -1,0 +1,734 @@
+{
+.appVersion = "3087";
+.formatVersion = 3;
+DisplayStrings = (
+"/.notdef",
+a
+);
+customParameters = (
+{
+name = panose;
+value = (
+0,
+0,
+5,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+);
+},
+{
+name = codePageRanges;
+value = (
+"1252"
+);
+},
+{
+name = blueScale;
+value = 0.037;
+},
+{
+name = glyphOrder;
+value = (
+.notdef,
+space,
+uniE06D,
+uniE06E,
+uniE06F,
+uniE070,
+uniE50B,
+uniE071,
+uniE50A,
+uniE50C,
+uniE50D,
+uniE039,
+uniE03D,
+uniE03E,
+uniE03F,
+uniE03C,
+uniE041,
+uniE03B,
+uniE39F,
+uniE042,
+uniE020,
+uniE021,
+uniE2E1,
+uniE3E7,
+uniE3E8,
+uniE229,
+uniF50A,
+uniF509,
+uniF50B,
+uniF50C,
+uniE338,
+uniE038,
+uniE033,
+uniE034,
+uniE0D0,
+uniE0D1,
+uniE0D2,
+uniE0D3,
+uniE151,
+uniE152,
+uniE153,
+uniE0D4,
+uniE0D5,
+uniE0D6,
+uniE0D7,
+uniE0D8,
+uniE0D9,
+uniE604,
+uniE702,
+uniE703,
+uniE704,
+uniF5DC,
+uniF5DF,
+uniF5DD,
+uniE429,
+uniE426,
+uniE422,
+uniE423,
+uniE427,
+uniE424,
+uniE42D,
+uniE42A,
+uniE42E,
+uniE42B,
+uniE42C,
+uniE42F,
+uniE430,
+uniE221,
+uniF574,
+uniF575,
+uniE08B,
+uniE08C,
+uniE08D,
+uniE08E,
+uniE091,
+uniE090,
+uniE08F,
+uniE093,
+uniE092,
+uniE094,
+uniE431,
+uniE432,
+uniE433,
+uniE434,
+uniE435,
+uniE436,
+uniE437,
+uniE438,
+uniE439,
+uniE43A,
+uniE43B,
+uniE43C,
+uniE43D,
+uniE43E,
+uniE43F,
+uniE000,
+uniE001,
+uniE002,
+uniE003,
+uniE004,
+uniE005,
+uniF5BF,
+uniF5C4,
+uniF5C6,
+uniF5C0,
+uniF5C1,
+uniE10F,
+uniE111,
+uniE112,
+uniE10D,
+uniE10E,
+uniE028,
+uniE029,
+uniE02A,
+uniE02B,
+uniE02C,
+uniE032,
+uniE030,
+uniE031,
+uniE026,
+uniE025,
+uniE023,
+uniE50E,
+uniF54E,
+uniF54F,
+uniF550,
+uniF551,
+uniF553,
+uniF554,
+uniF547,
+uniF548,
+uniF54A,
+uniF54C,
+uniF54D,
+uniF520,
+uniF521,
+uniF524,
+uniF525,
+uniF526,
+uniF527,
+uniF541,
+uniF540,
+uniE100,
+uniE103,
+uniE105,
+uniF57A,
+uniF57C,
+uniF57D,
+uniF57E,
+uniE010,
+uniE011,
+uniE012,
+uniE206,
+uniE204,
+uniE205,
+uniE250,
+uniE251,
+uniE20A,
+uniE203,
+uniE202,
+uniE00C,
+uniE228,
+uniE332,
+uniE626,
+uniE627,
+uniE01B,
+uniE01C,
+uniE01D,
+uniF5BA,
+uniF5BB,
+uniF5BC,
+uniE166,
+uniE165,
+uniE157,
+uniE158,
+uniE167,
+uniF5B8,
+uniF5B9,
+uniE39A,
+uniE009,
+uniE00A,
+uniE602,
+uniE600,
+uniE601,
+uniE701,
+uniE700,
+uniE60F,
+uniE60A,
+uniE609,
+uniF578,
+uniF577,
+uniF579,
+uniF576,
+uniE603,
+uniE60B,
+uniE60C,
+uniE60E,
+uniF5BE,
+uniE33A,
+uniE0E3,
+uniE095,
+uniE096,
+uniE097,
+uniE22A,
+uniE298,
+uniF572,
+uniF573,
+uniE0DA,
+uniE244,
+uniE243,
+uniE0E4,
+uniE440,
+uniE441,
+uniE442,
+uniE443,
+uniE444,
+uniE445,
+uniE39C,
+uniE39D,
+uniE390,
+uniE391,
+uniE0C6,
+uniE0C7,
+uniE0C8,
+uniE0C9,
+uniE621,
+uniE622,
+uniE623,
+uniE624,
+uniF59B,
+uniF59C,
+uniF59D,
+uniF59E,
+uniF597,
+uniF598,
+uniF599,
+uniF59A,
+uniE3F0,
+uniE3F1,
+uniE615,
+uniE616,
+uniE617,
+uniE618,
+uniE619,
+uniE62A,
+uniE629,
+uniE255,
+uniE254,
+uniE253,
+uniE252,
+uniE268,
+uniE269,
+uniE26A,
+uniE264,
+uniE265,
+uniE266,
+uniE267,
+uniE61C,
+uniE61D,
+uniE61E,
+uniE61F,
+uniE04E,
+uniE04F,
+uniE050,
+uniE051,
+uniE054,
+uniE055,
+uniE05A,
+uniE057,
+uniE058,
+uniF557,
+uniF558,
+uniF559,
+uniF55A,
+uniF55B,
+uniF55C,
+uniF55D,
+uniF55E,
+uniF55F,
+uniF560,
+uniF561,
+uniF562,
+uniF563,
+uniE169,
+uniE15B,
+uniE154,
+uniE15A,
+uniE164,
+uniE15F,
+uniE161,
+uniE155,
+uniE160,
+uniE159,
+uniE162,
+uniE163,
+uniE156,
+uniE3F3,
+uniE3F8,
+uniE3FA,
+uniE3FB,
+uniE3F4,
+uniE3F5,
+uniE3F7,
+uniF566,
+uniE606,
+uniE607,
+uniE608,
+uniF564,
+uniF567,
+uniF568,
+uniF569,
+uniF56A,
+uniF56B,
+uniF56C,
+uniE09C,
+uniE09B,
+uniE09A,
+uniE099,
+uniE0A7,
+uniE0A8,
+uniE0A2,
+uniE0A9,
+uniE0A3,
+uniE0A4,
+uniE0AA,
+uniE0B4,
+uniE0B5,
+uniE0B3,
+uniE0B2,
+uniE0AF,
+uniE0B6,
+uniE0B1,
+uniE0B0,
+uniE258,
+uniE0F4,
+uniE0FD,
+uniE614,
+uniE612,
+uniE880,
+uniE447,
+uniE448,
+uniE449,
+uniE44A,
+uniE44B,
+uniE44C,
+uniE44D,
+uniE44E,
+uniE44F,
+uniE0F5,
+uniE0F9,
+uniE120,
+uniE613,
+uniE09D,
+uniE610,
+uniE0B7,
+uniE0AB,
+uniE0DB,
+uniE0FB,
+uniE0FE,
+uniE0F6,
+uniE0F3,
+uniE0FF,
+uniE611,
+uniE0AD,
+uniE0F0,
+uniE0FC,
+uniE0FA,
+uniE184,
+uniE185,
+uniE186,
+uniE187,
+uniE188,
+uniE189,
+uniE18A,
+uniE18B,
+uniE18C,
+uniE18D,
+uniE18E,
+uniE18F,
+uniE190,
+uniE191,
+uniE192,
+uniE193,
+uniE194,
+uniE195,
+uniE196,
+uniE197,
+uniE198,
+uniE199,
+uniE19A,
+uniE19B,
+uniE19C,
+uniE19D,
+uniE19E,
+uniE19F,
+uniE1A0,
+uniE1A1,
+uniE1A3,
+uniE1A4,
+uniE1A5,
+uniE1A6,
+uniE1A7,
+uniE1A8,
+uniE1A9,
+uniE1AA,
+uniE1AB,
+uniE1AC,
+uniE1AD,
+uniE1AF,
+uniE1B0,
+uniE1B1,
+uniE1B2,
+uniE1B3,
+uniE1B4,
+uniE1B5,
+uniE1B6,
+uniE1B7,
+uniE1B8,
+uniE1B9,
+uniE1BA,
+uniE1BB,
+uniE1BC,
+uniE1BD,
+uniE1BE,
+uniE1BF,
+uniE1C0,
+uniE1C1,
+uniE1C2,
+uniE1C3,
+uniE1C4,
+uniE1C5,
+uniE1C6,
+uniE1C7,
+uniE1C8,
+uniE1C9,
+uniE1CA,
+uniE1CB,
+uniE1CC,
+uniE1CD,
+uniE27C,
+uniE27D,
+uniE27E,
+uniE27F,
+uniE280,
+uniE281,
+uniE282,
+uniE283,
+uniE284,
+uniE285,
+uniE286,
+uniE287,
+uniE288,
+uniE289,
+uniE28A,
+uniE28B,
+uniE28C,
+uniE28D,
+uniE28E,
+uniE28F,
+uniE290,
+uniE291,
+uniE292,
+uniE293,
+uniE294,
+uniE295,
+uniE296,
+uniE297,
+uniE2D0,
+uniE2D1,
+uniE2D2,
+uniE2D3,
+uniE2D4,
+uniE2D5,
+uniE2D6,
+uniE2DE,
+uniE2DF,
+uniE2E0,
+uniE299,
+uniE29A,
+uniE29B,
+uniE29C,
+uniE29D,
+uniE29E,
+uniE29F,
+uniE2A0,
+uniE2A1,
+uniE2A2,
+uniE2A3,
+uniE2A4,
+uniE2A5,
+uniE2A6,
+uniE2A7,
+uniE2A8,
+uniE2A9,
+uniE2AA,
+uniE2AB,
+uniE2AC,
+uniE2AD,
+uniE2AE,
+uniE2AF,
+uniE2B0,
+uniE2D7,
+uniE2D8,
+uniE2D9,
+uniE2DA,
+uniE2DB,
+uniE2DC,
+uniE2DD
+);
+}
+);
+date = "2021-02-05 21:16:07 +0000";
+familyName = test_baby;
+fontMaster = (
+{
+customParameters = (
+{
+name = typoAscender;
+value = 800;
+},
+{
+name = typoDescender;
+value = 0;
+},
+{
+name = typoLineGap;
+value = 400;
+},
+{
+name = winAscent;
+value = 1000;
+},
+{
+name = winDescent;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 800;
+},
+{
+name = hheaDescender;
+value = 0;
+},
+{
+name = strikeoutPosition;
+value = 480;
+},
+{
+name = strikeoutSize;
+value = 50;
+}
+);
+id = m01;
+metricValues = (
+{
+pos = 800;
+},
+{
+pos = 800;
+},
+{
+pos = 800;
+},
+{
+},
+{
+pos = -200;
+},
+{
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = .notdef;
+lastChange = "2022-09-18 16:29:46 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(800,0,l),
+(800,385,l),
+(0,800,l),
+(0,0,l)
+);
+}
+);
+width = 800;
+}
+);
+note = .notdef;
+},
+{
+glyphname = a;
+lastChange = "2022-09-18 16:34:01 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(800,0,l),
+(800,82,l),
+(0,800,l),
+(0,0,l)
+);
+}
+);
+width = 800;
+}
+);
+unicode = 97;
+}
+);
+instances = (
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = test_baby;
+properties = (
+{
+key = postscriptFullName;
+value = test_baby;
+},
+{
+key = postscriptFontName;
+value = test_baby;
+}
+);
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = ENG;
+value = "SIL Open Font License, Version 1.1.";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = ENG;
+value = "Heikki Lotvonen";
+}
+);
+},
+{
+key = designerURL;
+value = "http://heikkilotvonen.fi";
+},
+{
+key = postscriptFullName;
+value = "Tesserae TypeDesign";
+},
+{
+key = postscriptFontName;
+value = "Tesserae-TypeDesign";
+}
+);
+settings = {
+disablesNiceNames = 1;
+};
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}
