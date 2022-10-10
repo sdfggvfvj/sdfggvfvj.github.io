@@ -20,7 +20,7 @@ npm start
 ### About
 
 This is a modifed version of GlyphDrawClub, still under constrution.
-_modified by Xiaoyuan Gao (xiaoyuangao.cargo.site)
+_modified by XiaoyuanGao[@sdfggfvj](https://xiaoyuangao.cargo.site/)
 
 GlyphDrawing.club has been designed and developed by [@hlotvonen](http://heikkilotvonen.fi) and [@i-tu](https://github.com/i-tu) using React and MobX. For help, ideas, contributions, etc. open an issue or send an email to [hlotvonen@gmail.com](mailto:hlotvonen@gmail.com). 
 
