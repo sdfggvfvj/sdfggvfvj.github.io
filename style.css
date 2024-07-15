@@ -1,20 +1,11 @@
 @font-face {
-  src: url(font/Amiamie-Light.otf);
-  font-family: 'Amiamie'
+  src: url(font/NotCourierSans.otf);
+  font-family: 'NotCourierSans'
 }
 
-@font-face {
-  src: url(font/Amiamie-BlackRound.otf);
-  font-family: 'Amiamie-BlackRound';
-}
-
-@font-face {
-  src: url(font/Amiamie-RegularRound.otf);
-  font-family: 'Amiamie-RegularRound';
-}
 body {
   margin: 0;
-  font-family: Amiamie-RegularRound;
+  font-family: NotCourierSans;
 /*  background-image: url(i/bg2.gif);*/
   background-repeat: no-repeat;
   background-position: center;
