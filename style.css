@@ -23,22 +23,17 @@ em {
 
 
 .title {
+    margin: 10svw;
+    width: 80svw;
+    display: flex;
+    flex-direction: column;
     position: fixed;
+/*
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
-    justify-content: center;
-    text-align: left;
-}
-
-img {
-    margin: 1rem;
-    width: 10vw;
-}
-
-img:hover {
-    width: 50vw;
-    transform: rotate(2deg);
+    transform: translate(-50%, -50%); 
+*/
+    text-align: justify;
 }
 
 a {
@@ -54,4 +49,3 @@ a:checked {
 a:hover {
     font-family: NotCourierSans-Bold;
 }
-
