@@ -3,7 +3,13 @@
     font-family: 'NotCourierSans'
 }
 
+@font-face {
+    src: url(font/NotCourierSans-Bold.otf);
+    font-family: 'NotCourierSans-Bold'
+}
+
 body {
+    font-size: 1.5svh;
     margin: 0;
     font-family: NotCourierSans;
     background-repeat: no-repeat;
@@ -21,10 +27,8 @@ em {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-
     justify-content: center;
-    text-align: center;
-    font-size: 1.3rem;
+    text-align: left;
 }
 
 img {
@@ -48,40 +52,6 @@ a:checked {
 }
 
 a:hover {
-    font-family: Amiamie-BlackRound;
+    font-family: NotCourierSans-Bold;
 }
 
-.typefaces {
-    background-color: yellow;
-    font-size: 1.5rem;
-    word-spacing: 2rem;
-}
-
-
-.typefaces-info {
-    background-color: red;
-    padding: 1rem;
-}
-
-#previews {
-    margin: 0;
-    color: blue;
-    font-size: 3rem;
-    word-spacing: 2rem;
-}
-
-#previews img {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    height: auto;
-    width: 80vw;
-}
-
-#preveiws-title {
-    color: blue;
-}
-
-#preveiws-image {
-    background-color: green;
-}
