@@ -14,7 +14,7 @@ body {
     font-family: NotCourierSans;
     background-repeat: no-repeat;
     background-position: center;
-    color: black;
+    color: mediumslateblue;
 }
 
 em {
@@ -37,13 +37,13 @@ em {
 }
 
 a {
-    color: blue;
+    color: coral;
     text-decoration: none;
 }
 
 a:checked {
     text-decoration: none;
-    color: blue;
+    color: coral;
 }
 
 a:hover {
