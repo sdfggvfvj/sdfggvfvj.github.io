@@ -1,23 +1,14 @@
 @font-face {
-  src: url(font/NotCourierSans.otf);
-  font-family: 'NotCourierSans'
+    src: url(font/NotCourierSans.otf);
+    font-family: 'NotCourierSans'
 }
 
 body {
-  margin: 0;
-  font-family: NotCourierSans;
-/*  background-image: url(i/bg2.gif);*/
-  background-repeat: no-repeat;
-  background-position: center;
-  /* background-color: #c0e7fc; */
-  /* fun stroke */
-  /* -webkit-text-stroke: 2em rgba(0,0,0,0.1); */
-
-  color: black;
-  /* font-family: CLOCK; */
-  /* color: white; */
-  /* text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00; */
-
+    margin: 0;
+    font-family: NotCourierSans;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
 }
 
 em {
@@ -29,110 +20,68 @@ em {
     position: fixed;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
-/*    margin-top: calc(100vh/2);*/
+    transform: translate(-50%, -50%);
+
     justify-content: center;
-  /* background-color: #d8d9c7; */
-  text-align:center;
-  /* font-variant-alternates: styleset(ss02); */
-  /* line-height: 1rem; */
-  /* margin-bottom: 5rem; */
-  font-size: 1.3rem;
-/*  padding-bottom: 10rem;*/
+    text-align: center;
+    font-size: 1.3rem;
 }
 
-/* .title>p:hover {
-  font-size: 4vw;
-} */
 img {
-  margin:1rem;
-  width: 10vw;
+    margin: 1rem;
+    width: 10vw;
 }
+
 img:hover {
-  width: 50vw;
-  transform: rotate(2deg);
+    width: 50vw;
+    transform: rotate(2deg);
 }
-a{
-  color:blue;
-  text-decoration: none;
+
+a {
+    color: blue;
+    text-decoration: none;
 }
+
 a:checked {
-  text-decoration: none;
-  color:blue;
+    text-decoration: none;
+    color: blue;
 }
 
 a:hover {
     font-family: Amiamie-BlackRound;
 }
 
-/*
-.letter-o {
-  color: cyan;
-  vertical-align: super;
-}
-*/
-
-
-/*
-.letter-r {
-  color: red;
-  vertical-align: sub;
-  font-size: 0.8em;
-   background-color: #f2059b; 
-}
-*/
-/*
-.letter-p {
-  color: green;
-   background-color: yellow; 
-  vertical-align:super;
-  font-size: 0.5em;
-}
-*/
-
-/*
-.letter-s {
-   color: red; 
-  vertical-align:middle;
-  font-size: 1em;
-}
-*/
-
-
-/* typefaces-page */
 .typefaces {
-  background-color: yellow;
-  font-size: 1.5rem;
-  word-spacing: 2rem;
+    background-color: yellow;
+    font-size: 1.5rem;
+    word-spacing: 2rem;
 }
 
 
 .typefaces-info {
-  background-color: red;
-  padding: 1rem;
+    background-color: red;
+    padding: 1rem;
 }
+
 #previews {
-  margin: 0;
-  color: blue;
+    margin: 0;
+    color: blue;
     font-size: 3rem;
     word-spacing: 2rem;
 }
-#previews img {
 
-/* border-image: url(i/bg-o.jpeg) 27 23 / 50px 30px / 1rem round space; */
-/* border: 0.1rem dashed blue; */
-  /* border-radius: 1.5rem; */
-position:relative;
-left: 50%;
-transform: translateX(-50%);
-height: auto;
-width: 80vw;
+#previews img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+    width: 80vw;
 }
 
 #preveiws-title {
-  color: blue;
+    color: blue;
 }
 
 #preveiws-image {
-  background-color: green;
+    background-color: green;
 }
