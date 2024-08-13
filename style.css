@@ -9,12 +9,12 @@
 }
 
 body {
-    font-size: 1.5svh;
+    font-size: 2.5svh;
     margin: 0;
     font-family: NotCourierSans;
     background-repeat: no-repeat;
     background-position: center;
-    color: mediumslateblue;
+    color: black;
 }
 
 em {
@@ -37,15 +37,15 @@ em {
 }
 
 a {
-    color: coral;
+    color: blue;
     text-decoration: none;
 }
 
 a:checked {
     text-decoration: none;
-    color: coral;
+    color: blue;
 }
 
 a:hover {
-    font-family: NotCourierSans-Bold;
+    text-decoration-line: underline;
 }
