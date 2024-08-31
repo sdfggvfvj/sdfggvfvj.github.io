@@ -8,8 +8,12 @@
     font-family: 'NotCourierSans-Bold'
 }
 
+img {
+    width: 30svh;
+}
+
 body {
-    font-size: 2.5svh;
+    font-size: 2svh;
     margin: 0;
     font-family: NotCourierSans;
     background-repeat: no-repeat;
@@ -17,23 +21,12 @@ body {
     color: black;
 }
 
+.haha {
+    margin: 2svw;
+    text-align: center;
+}
 em {
     font-style: normal;
-}
-
-
-.title {
-    margin: 10svw;
-    width: 80svw;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-/*
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%); 
-*/
-    text-align: justify;
 }
 
 a {
